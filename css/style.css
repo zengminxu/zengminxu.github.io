@@ -143,7 +143,7 @@ ul,li{
 
 .custom-align {
     text-align: center;
-    margin: 0 auto; /* 调整右边边距，可以根据需要进行更改 */
+    margin: 0 auto; /* 对应html中354行 */
 }
 
 .theme-btn{
