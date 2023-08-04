@@ -694,6 +694,7 @@ img{
 
 .card-about .text {
 	position: relative;
+	left: 20px; /* 将元素向右移动 20 像素 */
 	margin-bottom: 20px;
 }
 
