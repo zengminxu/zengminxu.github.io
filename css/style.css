@@ -142,8 +142,8 @@ ul,li{
 }
 
 .custom-align {
-    text-align: left;
-    margin-right: 400px; /* 调整右边边距，可以根据需要进行更改 */
+    text-align: center;
+    margin: 0 auto; /* 调整右边边距，可以根据需要进行更改 */
 }
 
 .theme-btn{
