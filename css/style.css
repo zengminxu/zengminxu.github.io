@@ -698,6 +698,11 @@ img{
 	margin-bottom: 20px;
 }
 
+.publications {
+    text-align: right;
+    margin-right: 20px; /* 对应355行 */
+}
+
 .card-about .info-list {
 	margin-bottom: 28px;
 	padding-bottom: 20px;
