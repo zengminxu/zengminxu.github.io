@@ -142,7 +142,7 @@ ul,li{
 }
 
 .custom-align {
-    text-align: right;
+    text-align: left;
     margin-right: 20px; /* 调整右边边距，可以根据需要进行更改 */
 }
 
