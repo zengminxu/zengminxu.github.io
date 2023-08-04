@@ -699,8 +699,8 @@ img{
 }
 
 .publications {
-    text-align: right;
-    margin-right: 20px; /* 对应355行 */
+    text-align: center; /* 将文本内容居中对齐 */
+    margin: 0 auto; /* 自动计算左右边距，实现水平居中 */
 }
 
 .card-about .info-list {
