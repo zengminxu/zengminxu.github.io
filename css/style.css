@@ -698,8 +698,8 @@ img{
 	margin-bottom: 20px;
 }
 
-.publications {
-    text-align: center; /* 将文本内容居中对齐 */
+.publications {       /* 对应355行 */
+    text-align: center; 
     margin: 0 auto; /* 自动计算左右边距，实现水平居中 */
 }
 
