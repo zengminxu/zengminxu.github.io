@@ -699,7 +699,7 @@ img{
 }
 
 .publications {       /* 对应355行 */
-    text-align: center; 
+    text-align: left; 
     margin: 0 auto; /* 自动计算左右边距，实现水平居中 */
 }
 
