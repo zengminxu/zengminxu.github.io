@@ -141,6 +141,11 @@ ul,li{
 	text-align:center;	
 }
 
+.custom-align {
+    text-align: right;
+    margin-right: 50px; /* 调整右边边距，可以根据需要进行更改 */
+}
+
 .theme-btn{
 	display:inline-block;
 	letter-spacing: .5px;
