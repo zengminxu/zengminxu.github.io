@@ -20,10 +20,10 @@
 
 <body>
 
-<div class="page-wrapper default-version">
+<div class="page-wrapper default-version">  
  	
     <!-- Preloader -->
-    <div class="preloader"></div>
+    <div class="preloader"></div>       <!--div盒子，将文字区域分块-->
 
     <div class="page-background">
         <div class="image-1"><img src="images/icons/shape/icon-1.png" alt=""></div>
@@ -42,7 +42,7 @@
                     <div class="navbar-header">
                         <!-- Toggle Button -->      
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>   < !-- span对于某些文本需要单独修饰时，可以将其套上 -->
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
@@ -349,11 +349,11 @@
                             <div class="card-inner">
                                             <div class="caption-title">
                         <h4 class="title custom-align"> publications</h4>     <!-- title改为title custom-align -->
-                        <div class="text publications "> &nbsp &nbsp &nbsp &nbsp 1.Xu Z, Li X, Li J*, et al. Action Recognition via Adaptive Semi-Supervised Feature Analysis[J]. 
-                        <br> &nbsp &nbsp &nbsp Applied Science, Accepted. （SCI，第一作者）
-                        <br> &nbsp &nbsp &nbsp &nbsp 2.Zhang X, Xu Z*, Wang L, et al. Cross-View Nearest Neighbor Contrastive Learning of 
+                        <div class="text publications "> <ol>  <li> &nbsp &nbsp &nbsp &nbsp 1.Xu Z, Li X, Li J*, et al. Action Recognition via Adaptive Semi-Supervised Feature Analysis[J]. 
+                        <br> &nbsp &nbsp &nbsp Applied Science, Accepted. （SCI，第一作者） </li>     <!-- lo有序列表。配合li使用 -->
+                        <li> <br> &nbsp &nbsp &nbsp &nbsp 2.Zhang X, Xu Z*, Wang L, et al. Cross-View Nearest Neighbor Contrastive Learning of 
                         <br> &nbsp &nbsp &nbsp Human Skeleton Representation[C]//China Intelligent Robotics Annual Conference. Singapore: 
-                        <br> &nbsp &nbsp &nbsp Springer Nature Singapore, 2022: 237-256. （EI会议，通信作者）
+                        <br> &nbsp &nbsp &nbsp Springer Nature Singapore, 2022: 237-256. （EI会议，通信作者）</li> </ol>
 <br>&nbsp &nbsp &nbsp &nbsp 3.Li Y, Xu Z*, Feng C, et al. XGBoost-based Survival Analysis in Business Risk Prediction
                         <br> &nbsp &nbsp &nbsp [C]//2022 International Conference on High Performance Big Data and Intelligent Systems 
                         <br> &nbsp &nbsp &nbsp (HDIS). IEEE, 2022: 320-324.（EI会议，通信作者）
@@ -365,7 +365,7 @@
                          <br> &nbsp &nbsp &nbsp 发表.（北核，通信作者）
 <br> &nbsp &nbsp &nbsp &nbsp 7.Lin H, Cai D, Xu Z*, et al. Fabric4show: Real-time Vision System for Fabric Defect 
                          <br> &nbsp &nbsp &nbsp Detection and Post-Processing[J]. Visual Intelligence，Accepted.（中国图象图形学学会期刊，通
-                         <br> &nbsp &nbsp &nbsp 信作者）.</div>
+                         <br> &nbsp &nbsp &nbsp 信作者）.</div> 
                                             </div>
                                         </div>
                                     </div>
