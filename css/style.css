@@ -353,6 +353,7 @@ img{
     width:  100%;
     top:  0;
     left:  0;
+
 }
 
 .card-outer .container {
@@ -568,15 +569,17 @@ img{
 }
 
 .card-home .image {
-	width: 160px;
-	height: 160px;
+	width: 150px;
+	height: 120px;
 	margin: 0 auto;
 	margin-bottom: 25px;
 	background: #fff;
 	border-radius: 50%;
 	position: relative; /* 添加相对定位 */
-        top: -1px; /* 向上移动图片 20 像素 */
-        left: 390px; /* 向右移动图片 20 像素 */
+    top: -1px; /* 向上移动图片 20 像素 */
+    left: 390px; /* 向右移动图片 20 像素 */
+	
+	
 }
 
 .card-home .image img {
@@ -595,6 +598,7 @@ img{
 	margin-bottom: 25px;
 	color: #222;
 }
+
 
 .card-home .text {
 	font-size: 18px;
