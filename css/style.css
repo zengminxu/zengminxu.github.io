@@ -574,6 +574,9 @@ img{
 	margin-bottom: 25px;
 	background: #fff;
 	border-radius: 50%;
+	position: relative; /* 添加相对定位 */
+        top: -1px; /* 向上移动图片 20 像素 */
+        left: 390px; /* 向右移动图片 20 像素 */
 }
 
 .card-home .image img {
