@@ -134,7 +134,7 @@ p{
 ul,li{
 	list-style:none;
 	padding:0px;
-	margin:0px;	
+	margin:-10px;	
 }
 
 .centered{
