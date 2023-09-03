@@ -369,11 +369,17 @@ img{
 
  ***/
 
+ .larger-image {
+    width: 200px !important;
+    height: 200px !important;
+}
+
 .header {
 	position: absolute;
 	left: 0;
 	top: 0;
 	bottom: 0;
+	width: 100px;
 	background-color: #f8e9e9;
 	border-radius: 5px;
 	transition: .5s ease;
