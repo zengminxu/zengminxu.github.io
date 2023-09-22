@@ -361,7 +361,9 @@ img{
 }
 
 .card-outer .container {
-	position: relative;
+	width: 1400px;
+	/* height: 800px; */
+	position: relative;               /*******************************************改**************/
 }
 
 
@@ -518,7 +520,7 @@ img{
 
 .card-outer .card-inner-box {
 	position: relative;
-	min-height: 600px;
+	min-height: 800px;                   /*********改**************************************************/
 	background-image: -moz-linear-gradient( 110deg, rgb(145,71,255) 0%, rgb(121,39,245) 100%);
 	background-image: -webkit-linear-gradient( 110deg, rgb(145,71,255) 0%, rgb(121,39,245) 100%);
 	background-image: -ms-linear-gradient( 110deg, rgb(145,71,255) 0%, rgb(121,39,245) 100%);
@@ -635,7 +637,7 @@ img{
 	position: absolute;
 	left: 0px;
 	top: 0;
-	bottom: 0;
+	bottom: 1;
 	text-align: center;
 	padding: 50px 15px;
 	padding-top: 140px;
@@ -1941,7 +1943,7 @@ img{
 }
 
 .default-version .card-outer .card-wrapper {
-    box-shadow: 0 0 11px 3px rgba(0, 0, 0, 0.15);
+    box-shadow:  0 11px 3px rgba(0, 0, 0, 0.15);
 }
 
 .default-version .card-outer .card-inner-box {
@@ -1954,7 +1956,7 @@ img{
 
 .nicescroll-rails.nicescroll-rails-vr {
     opacity: 1 !important;
-    transform: translateX(10px);
+    /* transform: translateX(250px);               ********************************* */
 }
 
 
