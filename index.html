@@ -11,9 +11,10 @@
 <!--Favicon-->
 <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 <link rel="icon" href="images/favicon.png" type="image/x-icon">
-<!-- Responsive -->
+Responsive
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">  手机移动段方便看-->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">  手机移动段方便看
 <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 </head>
@@ -28,7 +29,7 @@
     <div class="page-background">
         <div class="image-1"><img src="images/icons/shape/icon-1.png" alt=""></div>
         <div class="image-7"><img src="images/icons/shape/icon-7.png" alt=""></div>
-        <canvas id="canvas"></canvas>
+        <!-- <canvas id="canvas"></canvas> -->
     </div>
     
     <!-- Mobile menu -->
@@ -67,7 +68,7 @@
             <!--Nav Outer End-->            
         </div>
     </div>
- 	
+	
     <div class="card-outer">
         <div class="scroll-box">
             <div class="container" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
@@ -112,7 +113,8 @@
                         <!-- card item -->
                         <div class="card-home card-item active" id="home" style="background-image:url(images/background/1.jpg)">
 
-                            <div class="card-inner wow fadeInUp" data-wow-duration="2s">
+                            <div class="card-inner wow fadeInUp animated" data-wow-duration="2s" tabindex="1" 
+                            style="overflow: hidden;outline: none;visibility: visible;animation-duration: 2s;width: 1000px;">
                                 <div class="image"><img src="images/resource/user.png" alt=""></div>   <!--579-->
                                 <div class="author">
                                     <style>
@@ -138,13 +140,17 @@
                                         
                                         <div class="text11">
                                              Email: xzm@guet.eud.cn<br>
-                                             Address: 科技园地址, Guilin 541000, China<br>
-                                             GUET faculty webpage: <a href="https://www.guet.edu.cn/people2/1170072.html">http://faculty.hust.edu.cn/xwang/en/index.htm</a><br>
+                                             Address: 桂林市七星区六合路123号桂林电子科技大学科技园3号楼, Guilin 541010, China<br>
+                                             GUET faculty webpage: <a href="https://www.guet.edu.cn/people2/1170072.html">https://www.guet.edu.cn/people2/1170072.html</a><br>
                                              Research interests: Scientific exploration and application demonstrations in the fields of artificial intelligence and big 
                                              <br>data, including  human behavior analysis, computer vision, natural language processing, operational statistics for 
                                              <br>industrial maintenance, deep learning, and machine learning.
-                                            
                                         </div>
+
+                                        <div>
+                                            <p style="color: #B5B5B5;">tip:ctrl+“鼠标滚轮”可调至全屏/窗口</p>
+                                        </div>
+                                       
                                         
                                         <!-- Hi i’m -->
                                         <div class="typing-title">
@@ -259,7 +265,7 @@
                                             <!--Timeline Block-->
                                             <div class="timeline-block">
                                                 <div class="inner-box">
-                                                    <div class="date"><span>2017/07-2020/06</span>.</div>
+                                                    <div class="date"><span>2017/07-2020/06</span></div>
                                                     <div class="text">参与国家重点研发计划项目，警务大数据智能应用技术研究. </div>
                                                 </div>
                                             </div>
@@ -267,7 +273,7 @@
                                             <div class="timeline-block">
                                                 <div class="inner-box">
                                                     
-                                                    <div class="date"><span>2017/09-2020/08</span>.</div>
+                                                    <div class="date"><span>2017/09-2020/08</span></div>
                                                     <div class="text">参与广西重点研发计划项目，面向涉密场所的视频人体行为分析系统研发及应用. </div>
                                                 </div>
                                             </div>
@@ -275,7 +281,7 @@
                                           <div class="timeline-block">
                                                 <div class="inner-box">
                                                    
-                                                    <div class="date"><span>2016/07-2018/12 </span>.</div>
+                                                    <div class="date"><span>2016/07-2018/12 </span></div>
                                                     <div class="text">参与公安部技术研究计划项目，监控视频中人员行为及多模态特征识别与判定关键技术. </div>
                                                 </div>
                                             </div>
@@ -283,7 +289,7 @@
                                          <div class="timeline-block">
                                                 <div class="inner-box">
                                                    
-                                                    <div class="date"><span>2014/01-2017/12 </span>.</div>
+                                                    <div class="date"><span>2014/01-2017/12 </span></div>
                                                     <div class="text">参与国家自然科学基金项目，基于GPU的并行不变特征图像匹配技术研究. </div>
                                                 </div>
                                             </div>
@@ -306,115 +312,120 @@
                                         <div class="clearfix">
                                         </div>                
                                              <div class="team">
-                                                <div class="col-md-2 col-sm-6"> 
+                                                <div class="col-md-3 col-sm-6"> 
                                                     <div class="single-profile">
                                                         <div class="media-image-small">
                                                             <a href="people/hmq/"><img class="media-object" src="images/cjk.jpg" alt=""></a>
                                                         </div>
                                                         <div class="media-mid">
                                                             <h4>陈家昆</a></h4>
-                                                            <h5>2019级硕士</h5>
+                                                            <h5>2019级应用数学专业</h5>
                                                         </div>
-                                                        <p>研究方向：半监督学习</p>
+                                                        <p>概伦电子(国内EDA上市公司),算法工程师，
+                                                            主研spice 和 fast spice模拟仿真器的开发,通过仿真给定电路来获得电路工作情况,
+                                                            包括电路方程求解和电路结构处理，例如 KCL/KVL定理、牛顿迭代算法、LU分解和稀疏矩阵的求解方法等。</p>
                                                     </div>
                                                 </div>
                                             
                                            
                                            
-                                            <div class="col-md-2 col-sm-6"> 
+                                            <div class="col-md-3 col-sm-6"> 
                                                 <div class="single-profile">
                                                     <div class="media-image-small">
                                                         <a href="people/hmq/"><img class="media-object" src="images/zxl.jpg" alt=""></a>
                                                     </div>
                                                     <div class="media-mid">
                                                         <h4>张雪莲</a></h4>
-                                                        <h5>2020级硕士</h5>
+                                                        <h5>2020级应用数学专业</h5>
                                                     </div>
-                                                    <p>研究方向：计算机视觉、自监督学习</p>
+                                                    <p>北京师范大学天津生态城附属学校，初中部数学教师，主讲有理数、整式加减、一元一次方程、几何图形初步等基础数学知识。</p>
                                                 </div>
                                             </div>
 
                                        
                                             
-                                            <div class="col-md-2 col-sm-6"> 
+                                            <div class="col-md-3  col-sm-6"> 
                                                 <div class="single-profile">
                                                     <div class="media-image-small">
                                                         <a href="people/hmq/"><img class="media-object" src="images/wll.jpg" alt=""></a>
                                                     </div>
                                                     <div class="media-mid">
                                                         <h4>王露露</a></h4>
-                                                        <h5>2020级硕士</h5>
+                                                        <h5>2020级应用数学专业</h5>
                                                     </div>
-                                                    <p>研究方向：计算机视觉、自监督学习</p>
+                                                    <p>深圳厚的技术,AI算法工程师,主研(工业图像)机器视觉、(电网调度)智能决策技术、
+                                                        通信网络优化，主要涉及运筹学、强化学习、反馈学习等技术。</p>
                                                 </div>
                                             </div>
 
-                                            <div class="col-md-2 col-sm-6"> 
+                                            <div class="col-md-3 col-sm-6"> 
                                                 <div class="single-profile">
                                                     <div class="media-image-small">
-                                                        <a href="people/hmq/"><img class="media-object" src="images/cjk.jpg" alt=""></a>
+                                                        <a href="people/hmq/"><img class="media-object" src="images/lyy.jpg" alt=""></a>
                                                     </div>
                                                     <div class="media-mid">
                                                         <h4>李莹莹</a></h4>
-                                                        <h5>2020级硕士</h5>
+                                                        <h5>2020级应用统计专业</h5>
                                                     </div>
-                                                    <p>研究方向：计算机视觉</p>
+                                                    <p>浙江法之道，AI算法工程师，主研法律行业NLP、OCR、LLM等相关算法，如文本审查/纠错、法律文书风险点审核、
+                                                        智能批注和数据流存储；智能咨询（如借助大模型参与法律知识问答、法律文书生成、普法问答等），OCR识别各种证据材料。</p>
                                                 </div>
                                             </div>
 
-                                            <div class="col-md-2 col-sm-6"> 
+                                            <div class="col-md-3 col-sm-6"> 
                                                 <div class="single-profile">
                                                     <div class="media-image-small">
                                                         <a href="people/hmq/"><img class="media-object" src="images/ttc.jpg" alt=""></a>
                                                     </div>
                                                     <div class="media-mid">
                                                         <h4>唐天驰</a></h4>
-                                                        <h5>2021级硕士</h5>
+                                                        <h5>2021级应用统计专业</h5>
                                                     </div>
-                                                    <p>研究方向：自然语言处理</p>
+                                                    <p>广东数业智能科技,NLP算法工程师,主研大语言模型和强化学习,如青少年心理学多轮对话数据收集,
+                                                        基于人类反馈强化学习的垂直领域大语言模型训练和对话状态管理,结合本地知识库进行阅读理解,提升对话可控性等。</p>
                                                 </div>
                                             </div>
 
-                                            <div class="col-md-2 col-sm-6"> 
+                                            <div class="col-md-3 col-sm-6"> 
                                                 <div class="single-profile">
                                                     <div class="media-image-small">
                                                         <a href="people/hmq/"><img class="media-object" src="images/zhr.jpg" alt=""></a>
                                                     </div>
                                                     <div class="media-mid">
                                                         <h4>朱泓润</a></h4>
-                                                        <h5>2021级硕士</h5>
+                                                        <h5>2021级应用统计专业</h5>
                                                     </div>
                                                     <p>研究方向：计算机视觉</p>
                                                 </div>
                                             </div>
                                             
-                                            <div class="col-md-2 col-sm-6"> 
+                                            <div class="col-md-3 col-sm-6"> 
                                                 <div class="single-profile">
                                                     <div class="media-image-small">
-                                                        <a href="people/hmq/"><img class="media-object" src="images/wf.JPG" alt=""></a>
+                                                        <a href="people/hmq/"><img class="media-object" src="images/wf.png" alt=""></a>
                                                     </div>
                                                     <div class="media-mid">
                                                         <h4>王凡</a></h4>
-                                                        <h5>2021级硕士</h5>
+                                                        <h5>2021级数学专业</h5>
                                                     </div>
                                                     <p>研究方向：半监督学习</p>
                                                 </div>
                                             </div>
 
-                                            <div class="col-md-2 col-sm-6"> 
+                                            <div class="col-md-3 col-sm-6"> 
                                                 <div class="single-profile">
                                                     <div class="media-image-small">
                                                         <a href="people/hmq/"><img class="media-object" src="images/wys.jpg" alt=""></a>
                                                     </div>
                                                     <div class="media-mid">
                                                         <h4>吴雨珊</a></h4>
-                                                        <h5>2021级硕士</h5>
+                                                        <h5>2021级数学专业</h5>
                                                     </div>
                                                     <p>研究方向：自监督学习、应用数学</p>
                                                 </div>
                                             </div>
 
-                                            <div class="col-md-2 col-sm-6"> 
+                                            <div class="col-md-3 col-sm-6"> 
                                                 <div class="single-profile">
                                                     <div class="media-image-small">
                                                         <a href="people/hmq/"><img class="media-object" src="images/wjr.jpg" alt=""></a>
@@ -427,7 +438,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="col-md-2 col-sm-6"> 
+                                            <div class="col-md-3 col-sm-6"> 
                                                 <div class="single-profile">
                                                     <div class="media-image-small">
                                                         <a href="people/hmq/"><img class="media-object" src="images/dsm.jpg" alt=""></a>
@@ -440,7 +451,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="col-md-2 col-sm-6"> 
+                                            <div class="col-md-3 col-sm-6"> 
                                                 <div class="single-profile">
                                                     <div class="media-image-small">
                                                         <a href="people/hmq/"><img class="media-object" src="images/llf.jpg" alt=""></a>
@@ -453,10 +464,10 @@
                                                 </div>
                                             </div>
                                         
-                                            <div class="col-md-2 col-sm-6"> 
+                                            <div class="col-md-3 col-sm-6"> 
                                                 <div class="single-profile">
                                                     <div class="media-image-small">
-                                                        <a href="people/hmq/"><img class="media-object" src="images/zf.JPG" alt=""></a>
+                                                        <a href="people/hmq/"><img class="media-object" src="images/zf.png" alt=""></a>
                                                     </div>
                                                     <div class="media-mid">
                                                         <h4>张帆</a></h4>
@@ -467,7 +478,7 @@
                                             </div>
 
                                         
-                                            <div class="col-md-2 col-sm-6"> 
+                                            <div class="col-md-3 col-sm-6"> 
                                                 <div class="single-profile">
                                                     <div class="media-image-small">
                                                         <a href="people/hmq/"><img class="media-object" src="images/xzy.jpg" alt=""></a>
@@ -480,7 +491,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="col-md-2 col-sm-6"> 
+                                            <div class="col-md-3 col-sm-6"> 
                                                 <div class="single-profile">
                                                     <div class="media-image-small">
                                                         <a href="people/hmq/"><img class="media-object" src="images/ymw.jpg" alt=""></a>
@@ -501,73 +512,73 @@
                         <div class="card-publications card-item" id="publications" style="background-image:url(images/background/2.jpg)">
                             <div class="card-inner">
                                 <h4 class="title">&nbsp publications</h4>
-                                <div class="text publications "> &nbsp &nbsp &nbsp &nbsp 1.Xu Z, Li X, Li J*, et al. Action Recognition via Adaptive Semi-Supervised Feature Analysis[J]. 
-                                    <br> &nbsp &nbsp &nbsp Applied Science, Accepted. （SCI，第一作者）
+                                <div class="text publications ">1.Xu Z, Li X, Li J*, et al. Action Recognition via Adaptive Semi-Supervised Feature Analysis[J]. 
+                                    Applied Science, Accepted. （SCI，第一作者）
                                     <!-- lo有序列表。配合li使用 -->
-                                    <br> &nbsp &nbsp &nbsp &nbsp 2.Zhang X, Xu Z*, Wang L, et al. Cross-View Nearest Neighbor Contrastive Learning of 
-                                    <br> &nbsp &nbsp &nbsp Human Skeleton Representation[C]//China Intelligent Robotics Annual Conference. Singapore: 
-                                    <br> &nbsp &nbsp &nbsp Springer Nature Singapore, 2022: 237-256. （EI会议，通信作者）
-            <br>&nbsp &nbsp &nbsp &nbsp 3.Li Y, Xu Z*, Feng C, et al. XGBoost-based Survival Analysis in Business Risk Prediction
-                                    <br> &nbsp &nbsp &nbsp [C]//2022 International Conference on High Performance Big Data and Intelligent Systems 
-                                    <br> &nbsp &nbsp &nbsp (HDIS). IEEE, 2022: 320-324.（EI会议，通信作者）
-                                    <br>&nbsp &nbsp &nbsp &nbsp 4.Zengmin Xu, Ruimin Hu, Jun Chen, Chen Chen, Junjun Jiang, Jiaofen Li, Hongyang Li. 
-                                    <br>&nbsp &nbsp &nbsp SemiSupervised Discriminant MultiManifold Analysis for Action Recognition[J]. IEEE 
-                                    <br>&nbsp &nbsp &nbsp Transactions on Neural Networks and Learning Systems, 2019, 30(10):2951-2962.（SCI一区，
-                                    <br>&nbsp &nbsp &nbsp IF=14.255）CCF B刊
-                                    <br>&nbsp &nbsp &nbsp &nbsp 5.Zengmin Xu, Ruimin Hu, Jun Chen, Chen Chen, et al. Action recognition by saliency-based 
-                                    <br>&nbsp &nbsp &nbsp dense sampling[J]. Neurocomputing, 2017, 236:82-92. (SCI二区，IF=4.438）CCF C刊
-                                    <br>&nbsp &nbsp &nbsp &nbsp 6.Zengmin Xu, Ruimin Hu, Jun Chen, Huafeng Chen, Hongyang Li. Global Contrast based 
-                                    <br>&nbsp &nbsp &nbsp Salient Region Boundary Sampling for Action Recognition[C]//International Conference on
-                                    <br>&nbsp &nbsp &nbsp MultiMedia Modeling (MMM), Miami, January 2016, 9516:187-198. (EI)CCF C会 ORAL
-                                    <br>&nbsp &nbsp &nbsp &nbsp 7.Hongyang Li, Jun Chen, Zengmin Xu, Huafeng Chen, Ruimin Hu. Multiple instance 
-                                    <br>&nbsp &nbsp &nbsp discriminative dictionary learning for action recognition[C]//2016 IEEE International 
-                                    <br>&nbsp &nbsp &nbsp Conference  on Acoustics, Speech and Signal Processing, ICASSP 2016:2014-2018, Shanghai, 
-                                    <br>&nbsp &nbsp &nbsp China, March 2016. (EI) CCF B会
-                                    <br>&nbsp &nbsp &nbsp &nbsp 8.Hongyang Li,Jun Chen, Ruimin Hu, Mei Yu, Huafeng Chen, Zengmin Xu. Action Recognition
-                                    <br>&nbsp &nbsp &nbsp Using Visual Attention with Reinforcement Learning[C]. In: International Conference on 
-                                    <br>&nbsp &nbsp &nbsp MultiMedia Modeling (MMM), Thessaloniki, January 2019, 11296:365-376. (EI) CCF C会
-                                    <br>&nbsp &nbsp &nbsp &nbsp 9.Huafeng Chen, Jun Chen, Hongyang Li, Zengmin Xu, Ruimin Hu. Compressed-domain 
-                                    <br>&nbsp &nbsp &nbsp based Camera Motion Estimation for Realtime Action Recognition[C]//Pacific-Rim Conference 
-                                    <br>&nbsp &nbsp &nbsp on Multimedia (PCM), Gwangju, Korea, September 2015. (EI) CCF C会
-                                    <br>&nbsp &nbsp &nbsp &nbsp 10.Zengmin Xu, Ruimin Hu, Jun Chen, Hongyang Li, Huafeng Chen. How much bandwidth
-                                    <br>&nbsp &nbsp &nbsp does Surveillance System require?[C]//IEEE International Conference on Image Processing 
-                                    <br>&nbsp &nbsp &nbsp (ICIP), Quebec, Canada, September 2015:1762-1766. (EI) CCF C会
-                                    <br>&nbsp &nbsp &nbsp &nbsp 11.Chengjun Tang, Kun Zhang, Chunfang Xing, Yong Ding, Zengmin Xu. Perlin Noise Improve 
-                                    <br>&nbsp &nbsp &nbsp Adversarial Robustness[C]//International Conference on Advanced Computing and 
-                                    <br>&nbsp &nbsp &nbsp Endogenous Security (ICACES), Nanjing, China, 2021. (EI)
-                                    <br>&nbsp &nbsp &nbsp &nbsp 12.Xulian Zhang, Zengmin Xu, Kun Zhang, Lulu Wang. Cross-View Nearest Neighbor 
-                                    <br>&nbsp &nbsp &nbsp Contrastive Learning of Human Skeleton Representation[C]//Communications in Computer 
-                                    <br>&nbsp &nbsp &nbsp and Information Science, Accepted, 2023. (EI)
-                                    <br>&nbsp &nbsp &nbsp &nbsp 13.Yingying Li, Zengmin Xu, Cong Feng, You Jiang. XGBoost-based Survival Analysis in 
-                                    <br>&nbsp &nbsp &nbsp Business Risk Prediction[C]//International Conference on High Performance Big Data and 
-                                    <br>&nbsp &nbsp &nbsp Intelligent Systems (HDIS), Accepted, Tianjin, China, 2022. (EI)
-                                    <br> &nbsp &nbsp &nbsp &nbsp 14.Lin H, Cai D, Xu Z*, et al. Fabric4show: Real-time Vision System for Fabric Defect 
-                                    <br> &nbsp &nbsp &nbsp Detection and Post-Processing[J]. Visual Intelligence，Accepted.（中国图象图形学学会期刊，通
-                                    <br> &nbsp &nbsp &nbsp 信作者）.
-                                    <br>&nbsp &nbsp &nbsp &nbsp 15.徐增敏，陆光建，陈俊彦，陈金龙，丁 勇. 基于通道特征聚合的行人重识别算法[J]. 应用科学学报，
-                                    <br>&nbsp &nbsp &nbsp 2023，(1).
-                                    <br>&nbsp &nbsp &nbsp &nbsp 16.徐增敏，陈凯，郭威伟，赵汝文，蒋占四. 面向轻量级卷积网络的激活函数与压缩模型[J]. 计算机工
-                                    <br>&nbsp &nbsp &nbsp 程，2022，48(05):242-250.
-                                    <br>&nbsp &nbsp &nbsp &nbsp 17.徐增敏，胡瑞敏，陈军，禹玮，傅佑铭，李俊. 面向应急调度的多媒体网关通信模式[J]. 武汉大学学
-                                    <br>&nbsp &nbsp &nbsp 报(工学版)，2015，48(5):727-733.
-                                    <br>&nbsp &nbsp &nbsp &nbsp 徐增敏，崔忠宁，王会勇，陈光喜. 虚拟场景中异步消息的通信设计[J]. 小型微型计算机系统，2014，
-                                    <br>&nbsp &nbsp &nbsp 35(11):2548-2552.
-                                    <br>&nbsp &nbsp &nbsp &nbsp 18.徐增敏，关健，蒋英春，段雪峰. 基于视觉特征库的交互控制方法[J]. 计算机测量与控制，2014，
-                                    <br>&nbsp &nbsp &nbsp 22(3):754-757.
-                                    <br>&nbsp &nbsp &nbsp &nbsp 19.徐增敏，崔忠宁，湛永松，陈光喜. J2SE网络游戏设计与实现[J]. 计算机工程与设计，2013，
-                                    <br>&nbsp &nbsp &nbsp 34(10):3574-3579.
-                                    <br>&nbsp &nbsp &nbsp &nbsp 20.徐增敏，张昆，丁勇，赵汝文. 基于动态视图的数据库性能调优[J].计算机应用与软件，2012，
-                                    <br>&nbsp &nbsp &nbsp 29(12):58-60.
-                                    <br>&nbsp &nbsp &nbsp &nbsp 21.禹玮，徐增敏，易云飞，傅佑铭. 基于反馈周期的网络负载均衡算法[J]. 计算机工程与设计，2016，
-                                    <br>&nbsp &nbsp &nbsp 37(04):841-846.
-                                    <br>&nbsp &nbsp &nbsp &nbsp 22.徐增敏，唐先红，朱志斌，陈军. 学科前沿指引下的信息与计算科学专业教学研究[J]. 计算机教育，
-                                    <br>&nbsp &nbsp &nbsp 2014，(08):1-4+11.
-                                    <br>&nbsp &nbsp &nbsp &nbsp 23.张雪莲,徐增敏*,陈家昆等.基于跨尺度图对比学习的人体骨架动作识别方法[J].燕山大学学报，
-                                    <br> &nbsp &nbsp &nbsp 2023,47(02):164-174.（北核，通信作者）
-                                    <br>&nbsp &nbsp &nbsp &nbsp 24.王露露，徐增敏*，张雪莲等.跨模态时序对比学习的自监督视频表征算法[J].北京航空航天大学学
-                                    <br>&nbsp &nbsp &nbsp 报，已录用待发表.（北核，通信作者）
-                                    <br>&nbsp &nbsp &nbsp &nbsp 25.吴雨珊，徐增敏*，张雪莲等.骨架数据增强和双重近邻检索自监督动作识别[J].计算机科学，已录用待
-                                     &nbsp 待发表.（北核，通信作者）
+                                    <br>2.Zhang X, Xu Z*, Wang L, et al. Cross-View Nearest Neighbor Contrastive Learning of 
+                                    Human Skeleton Representation[C]//China Intelligent Robotics Annual Conference. Singapore: 
+                                    Springer Nature Singapore, 2022: 237-256. （EI会议，通信作者）
+                                    <br>3.Li Y, Xu Z*, Feng C, et al. XGBoost-based Survival Analysis in Business Risk Prediction
+                                     [C]//2022 International Conference on High Performance Big Data and Intelligent Systems 
+                                     (HDIS). IEEE, 2022: 320-324.（EI会议，通信作者）
+                                     <br>4.Zengmin Xu, Ruimin Hu, Jun Chen, Chen Chen, Junjun Jiang, Jiaofen Li, Hongyang Li. 
+                                    SemiSupervised Discriminant MultiManifold Analysis for Action Recognition[J]. IEEE 
+                                    Transactions on Neural Networks and Learning Systems, 2019, 30(10):2951-2962.（SCI一区，
+                                    IF=14.255）CCF B刊
+                                    <br>5.Zengmin Xu, Ruimin Hu, Jun Chen, Chen Chen, et al. Action recognition by saliency-based 
+                                    dense sampling[J]. Neurocomputing, 2017, 236:82-92. (SCI二区，IF=4.438）CCF C刊
+                                    <br>6.Zengmin Xu, Ruimin Hu, Jun Chen, Huafeng Chen, Hongyang Li. Global Contrast based 
+                                    Salient Region Boundary Sampling for Action Recognition[C]//International Conference on
+                                    MultiMedia Modeling (MMM), Miami, January 2016, 9516:187-198. (EI)CCF C会 ORAL
+                                    <br>7.Hongyang Li, Jun Chen, Zengmin Xu, Huafeng Chen, Ruimin Hu. Multiple instance 
+                                    discriminative dictionary learning for action recognition[C]//2016 IEEE International 
+                                    Conference  on Acoustics, Speech and Signal Processing, ICASSP 2016:2014-2018, Shanghai, 
+                                    China, March 2016. (EI) CCF B会
+                                    <br>8.Hongyang Li,Jun Chen, Ruimin Hu, Mei Yu, Huafeng Chen, Zengmin Xu. Action Recognition
+                                    Using Visual Attention with Reinforcement Learning[C]. In: International Conference on 
+                                    MultiMedia Modeling (MMM), Thessaloniki, January 2019, 11296:365-376. (EI) CCF C会
+                                    <br>9.Huafeng Chen, Jun Chen, Hongyang Li, Zengmin Xu, Ruimin Hu. Compressed-domain 
+                                    based Camera Motion Estimation for Realtime Action Recognition[C]//Pacific-Rim Conference 
+                                    on Multimedia (PCM), Gwangju, Korea, September 2015. (EI) CCF C会
+                                    <br>10.Zengmin Xu, Ruimin Hu, Jun Chen, Hongyang Li, Huafeng Chen. How much bandwidth
+                                    does Surveillance System require?[C]//IEEE International Conference on Image Processing 
+                                    (ICIP), Quebec, Canada, September 2015:1762-1766. (EI) CCF C会
+                                    <br>11.Chengjun Tang, Kun Zhang, Chunfang Xing, Yong Ding, Zengmin Xu. Perlin Noise Improve 
+                                    Adversarial Robustness[C]//International Conference on Advanced Computing and 
+                                    Endogenous Security (ICACES), Nanjing, China, 2021. (EI)
+                                    <br>12.Xulian Zhang, Zengmin Xu, Kun Zhang, Lulu Wang. Cross-View Nearest Neighbor 
+                                    Contrastive Learning of Human Skeleton Representation[C]//Communications in Computer 
+                                    and Information Science, Accepted, 2023. (EI)
+                                    <br>13.Yingying Li, Zengmin Xu, Cong Feng, You Jiang. XGBoost-based Survival Analysis in 
+                                    Business Risk Prediction[C]//International Conference on High Performance Big Data and 
+                                    Intelligent Systems (HDIS), Accepted, Tianjin, China, 2022. (EI)
+                                    <br> 14.Lin H, Cai D, Xu Z*, et al. Fabric4show: Real-time Vision System for Fabric Defect 
+                                     Detection and Post-Processing[J]. Visual Intelligence，Accepted.（中国图象图形学学会期刊，通
+                                    信作者）.
+                                    <br>15.徐增敏，陆光建，陈俊彦，陈金龙，丁 勇. 基于通道特征聚合的行人重识别算法[J]. 应用科学学报，
+                                    2023，(1).
+                                    <br>16.徐增敏，陈凯，郭威伟，赵汝文，蒋占四. 面向轻量级卷积网络的激活函数与压缩模型[J]. 计算机工
+                                    程，2022，48(05):242-250.
+                                    <br>17.徐增敏，胡瑞敏，陈军，禹玮，傅佑铭，李俊. 面向应急调度的多媒体网关通信模式[J]. 武汉大学学
+                                    报(工学版)，2015，48(5):727-733.
+                                    徐增敏，崔忠宁，王会勇，陈光喜. 虚拟场景中异步消息的通信设计[J]. 小型微型计算机系统，2014，
+                                    35(11):2548-2552.
+                                    <br>18.徐增敏，关健，蒋英春，段雪峰. 基于视觉特征库的交互控制方法[J]. 计算机测量与控制，2014，
+                                    22(3):754-757.
+                                    <br>19.徐增敏，崔忠宁，湛永松，陈光喜. J2SE网络游戏设计与实现[J]. 计算机工程与设计，2013，
+                                    34(10):3574-3579.
+                                    <br>20.徐增敏，张昆，丁勇，赵汝文. 基于动态视图的数据库性能调优[J].计算机应用与软件，2012，
+                                    29(12):58-60.
+                                    <br>21.禹玮，徐增敏，易云飞，傅佑铭. 基于反馈周期的网络负载均衡算法[J]. 计算机工程与设计，2016，
+                                    37(04):841-846.
+                                    <br>22.徐增敏，唐先红，朱志斌，陈军. 学科前沿指引下的信息与计算科学专业教学研究[J]. 计算机教育，
+                                    2014，(08):1-4+11.
+                                    <br>23.张雪莲,徐增敏*,陈家昆等.基于跨尺度图对比学习的人体骨架动作识别方法[J].燕山大学学报，
+                                    2023,47(02):164-174.（北核，通信作者）<a href="https://www.slidestalk.com/Baiyulan/">白玉兰代码地址</a>
+                                    <br>24.王露露，徐增敏*，张雪莲等.跨模态时序对比学习的自监督视频表征算法[J].北京航空航天大学学
+                                    报，已录用待发表.（北核，通信作者）<a href="https://www.slidestalk.com/Baiyulan/">白玉兰代码地址</a>
+                                    <br>25.吴雨珊，徐增敏*，张雪莲等.骨架数据增强和双重近邻检索自监督动作识别[J].计算机科学，已录用待
+                                    待发表.（北核，通信作者）<a href="https://www.slidestalk.com/Baiyulan/">白玉兰代码地址</a>
                                     </div> 
                                                         </div>
                                                     </div>
@@ -737,7 +748,7 @@
 <!--Google Map APi Key-->
 <script src="http://ditu.google.cn/maps/api/js?key=AIzaSyATY4Rxc8jNvDpsK8ZetC7JyN4PFVYGCGM"></script>
 <script src="js/gmaps.js"></script>
-<script src="js/map-script.js"></script>
+<!-- <script src="js/map-script.js"></script> -->
 <!--End Google Map APi-->
 
 </body>
