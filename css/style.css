@@ -111,6 +111,7 @@ p{
 ::-ms-input-placeholder{color: inherit;}
 
 .auto-container{
+	
 	position:static;
 	max-width:1200px;
 	padding:0px 15px;
@@ -361,11 +362,11 @@ img{
 }
 
 .card-outer .container {
-	/* width: 1400px; */
+	width: 1220px;
 	/* height: 800px; */
 	position: relative;               /*******************************************改**************/
 }
-
+.header.container
 
 /*** 
 
@@ -386,7 +387,7 @@ img{
 	left: 0;
 	top: 0;
 	bottom: 0;
-	width: 150px;
+	width: 120px;
 	background-color: #f8e9e9;
 	border-radius: 5px;
 	transition: .5s ease;
@@ -1955,7 +1956,7 @@ img{
 }
 
 .nicescroll-rails.nicescroll-rails-vr {
-    opacity: 1 !important;
+    opacity: 0 !important;
     /* transform: translateX(250px);               ********************************* */
 }
 
