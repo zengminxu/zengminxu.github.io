@@ -45,6 +45,10 @@ const siteConfig: SiteConfig = {
             text: 'Publications',
             href: '/pubs'
         },
+        {
+            text: 'People',
+            href: '/people'
+        }
     ],
     footerNavLinks: [
         {
@@ -54,25 +58,29 @@ const siteConfig: SiteConfig = {
         {
             text: 'Contact',
             href: '/contact'
-        },
+        }
     ],
     socialLinks: [
         {
             text: 'Contact via email',
             href: 'mailto:xzm@guet.edu.cn'
-        },
+        }
     ],
     hero: {
         title: 'About me and the research group',
         text: '**Research interests:** Scientific exploration and application demonstrations in the fields of artificial intelligence and big data, including human behavior analysis, computer vision, natural language processing, operational statistics for industrial maintenance, deep learning, and machine learning.',
         actions: [
             {
-                text: 'Get in Touch',
+                text: 'Get in touch',
                 href: '/contact'
             },
             {
                 text: 'More about me',
                 href: '/about'
+            },
+            {
+                text: 'Our members',
+                href: '/people'
             }
         ]
     },

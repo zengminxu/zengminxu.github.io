@@ -5,8 +5,8 @@ module.exports = {
     darkMode: 'class',
     theme: {
         fontFamily: {
-            sans: ['Inter', ...defaultTheme.fontFamily.sans].map((font) => `'${font}'`.replaceAll('"', '')).join(', '),
-            serif: ['Newsreader', ...defaultTheme.fontFamily.serif].map((font) => `'${font}'`.replaceAll('"', '')).join(', ')
+            sans: ['Inter', 'Noto Sans SC', ...defaultTheme.fontFamily.sans].map((font) => `'${font}'`.replaceAll('"', '')).join(', '),
+            serif: ['Newsreader', 'Noto Serif SC', ...defaultTheme.fontFamily.serif].map((font) => `'${font}'`.replaceAll('"', '')).join(', ')
         },
         extend: {
             textColor: {
