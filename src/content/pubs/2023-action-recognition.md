@@ -5,7 +5,7 @@ publishDate: 2023-06-29
 publishDesc: 'Applied Sciences'
 description: ''
 doi: 10.3390/app13137684
-cite: Xu Z, Li X, Li J*, et al. Action Recognition via Adaptive Semi-Supervised Feature Analysis[J]. Applied Science, Accepted.
+cite: 'Xu Z, Li X, Li J, et al. Action Recognition via Adaptive Semi-Supervised Feature Analysis[J]. Applied Sciences, 2023, 13(13): 7684.'
 additionalInfo: SCI，第一作者
 ---
 
