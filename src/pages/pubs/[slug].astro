@@ -1,0 +1,74 @@
+---
+import { type CollectionEntry, getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PubPreview from '../../components/PubPreview.astro';
+import { sortItemsByDateDesc } from '../../utils/data-utils';
+
+export async function getStaticPaths() {
+	const pubs = (await getCollection('pubs')).sort(sortItemsByDateDesc);
+	const pubCount = pubs.length;
+	return pubs.map((pub, index) => ({
+		params: { slug: pub.slug },
+		props: {
+			pub: pub,
+			prevPub: index + 1 !== pubCount ? pubs[index + 1] : null,
+			nextPub: index !== 0 ? pubs[index - 1] : null
+		}
+	}));
+}
+
+type Props = { pub: CollectionEntry<'pubs'>; prevPub: CollectionEntry<'pubs'>; nextPub: CollectionEntry<'pubs'> };
+
+const { pub, prevPub, nextPub } = Astro.props;
+const { title, description, author, publishDate, publishDesc, cite, doi, additionalInfo, seo } = pub.data;
+const { Content } = await pub.render();
+---
+
+<BaseLayout title={seo?.title ?? title} description={seo?.description ?? description} pageType="article" showHeader={false}>
+	<article class="mb-16 sm:mb-24">
+		<header class="mb-8">
+			<h1 class="text-3xl leading-tight font-serif font-medium sm:text-5xl sm:leading-tight">{title}</h1>
+			<p class="mt-2 text-main">{author}</p>
+			{additionalInfo && <p class="mt-1 opacity-50">{additionalInfo}</p>}
+			<p class="mt-1 text-main">
+				<span class="opacity-50">{publishDesc} ({publishDate.getFullYear()})</span>
+			</p>
+			<p class="opacity-40 hover:opacity-80">DOI: <a href=`https://doi.org/${doi}` class="underline">{doi}</a></p>
+			<div>
+				<script is:inline>
+					const copyCite = async () => {
+						try {
+							const citeButton = document.getElementById('cite-button');
+							const text = document.getElementById('cite-text')?.textContent;
+
+							await navigator.clipboard.writeText(text).then(() => {
+								citeButton.innerHTML = 'Copied!';
+								setTimeout(() => {
+									citeButton.textContent = 'Copy cite';
+								}, 2000);
+							});
+
+							console.log('Content copied to clipboard');
+						} catch (err) {
+							console.error('Failed to copy: ', err);
+						}
+					};
+				</script>
+				<span class="hidden" id="cite-text">{cite}</span>
+				<button class="mt-2 p-0.5 px-2 text-sm border rounded-full border-main hover:bg-muted" id="cite-button" onclick="copyCite()">Copy cite</button>
+			</div>
+		</header>
+		<div class="max-w-none prose prose-dante sm:prose-lg">
+			<Content />
+		</div>
+	</article>
+	{
+		(prevPub || nextPub) && (
+			<div class="my-16 sm:my-24">
+				<h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">View Next</h2>
+				{nextPub && <PubPreview pub={nextPub} class="mb-10 sm:mb-12" headingLevel="h3" />}
+				{prevPub && <PubPreview pub={prevPub} class="mb-10 sm:mb-12" headingLevel="h3" />}
+			</div>
+		)
+	}
+</BaseLayout>

@@ -1,0 +1,82 @@
+export type Image = {
+    src: string;
+    alt?: string;
+    caption?: string;
+};
+
+export type Link = {
+    text: string;
+    href: string;
+};
+
+export type Hero = {
+    title?: string;
+    text?: string;
+    actions?: Link[];
+};
+
+export type SiteConfig = {
+    logo?: Image;
+    title: string;
+    subtitle?: string;
+    description: string;
+    image?: Image;
+    headerNavLinks?: Link[];
+    footerNavLinks?: Link[];
+    socialLinks?: Link[];
+    hero?: Hero;
+    pubsPerPage?: number;
+};
+
+const siteConfig: SiteConfig = {
+    title: 'Zengmin Xu',
+    subtitle: 'Associate Professor',
+    description: 'Website for Zengmin Xu and the research group.',
+    image: {
+        src: '/dante-preview.jpg',
+        alt: 'Dante - Astro.js and Tailwind CSS theme'
+    },
+    headerNavLinks: [
+        {
+            text: 'Home',
+            href: '/'
+        },
+        {
+            text: 'Publications',
+            href: '/pubs'
+        },
+    ],
+    footerNavLinks: [
+        {
+            text: 'About',
+            href: '/about'
+        },
+        {
+            text: 'Contact',
+            href: '/contact'
+        },
+    ],
+    socialLinks: [
+        {
+            text: 'Contact via email',
+            href: 'mailto:xzm@guet.edu.cn'
+        },
+    ],
+    hero: {
+        title: 'About me and the research group',
+        text: '**Research interests:** Scientific exploration and application demonstrations in the fields of artificial intelligence and big data, including human behavior analysis, computer vision, natural language processing, operational statistics for industrial maintenance, deep learning, and machine learning.',
+        actions: [
+            {
+                text: 'Get in Touch',
+                href: '/contact'
+            },
+            {
+                text: 'More about me',
+                href: '/about'
+            }
+        ]
+    },
+    pubsPerPage: 8
+};
+
+export default siteConfig;

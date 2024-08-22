@@ -1,0 +1,29 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Button from '../components/Button.astro';
+import Hero from '../components/Hero.astro';
+import PubPreview from '../components/PubPreview.astro';
+import siteConfig from '../data/site-config';
+import { sortItemsByDateDesc } from '../utils/data-utils';
+
+const pubs = (await getCollection('pubs')).sort(sortItemsByDateDesc);
+const lasestPubs = pubs.slice(0, siteConfig.pubsPerPage);
+---
+
+<BaseLayout description={siteConfig.description} image={siteConfig.image}>
+    <Hero />
+    {
+        lasestPubs?.length > 0 && (
+            <div class="mb-16 sm:mb-24">
+                <h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">Latest Publications</h2>
+                {lasestPubs.map((pub) => (
+                    <PubPreview pub={pub} class="mb-10 sm:mb-12" headingLevel="h3" />
+                ))}
+                <div class="mt-12 sm:mt-16">
+                    <Button href="/pubs">View All Publications</Button>
+                </div>
+            </div>
+        )
+    }
+</BaseLayout>
