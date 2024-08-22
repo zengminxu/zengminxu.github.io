@@ -3,7 +3,7 @@ title: Cross-View Nearest Neighbor Contrastive Learning of Human Skeleton Repres
 author: Zhang, Xuelian and Xu, Zengmin and Wang, Lulu and Chen, Jiakun
 publishDate: 2023-02-18
 publishDesc: 'China Intelligent Robotics Annual Conference. Singapore: Springer Nature Singapore, 2022'
-description: 'We propose a novel and generic Cross-View Nearest Neighbor Contrastive Learning framework for self-supervised action Representation (CrosNNCLR) at the view-level, which can be flexibly integrated into contrastive learning networks in a plug-and-play manner. '
+description: ''
 doi: 10.1007/978-981-99-0301-6_19
 cite: 'Zhang X, Xu Z*, Wang L, et al. Cross-View Nearest Neighbor Contrastive Learning of Human Skeleton Representation[C]//China Intelligent Robotics Annual Conference. Singapore: Springer Nature Singapore, 2022: 237-256.'
 additionalInfo: EI会议，通信作者
