@@ -23,12 +23,12 @@ const { Content } = await pub.render();
 		<header class="mb-8">
 			<h1 class="text-3xl leading-tight font-serif font-medium sm:text-5xl sm:leading-tight">{title}</h1>
 			<p class="mt-2 text-main">{author}</p>
-			{additionalInfo && <p class="mt-1 opacity-50">{additionalInfo}</p>}
-			<p class="mt-1 text-main">
-				<span class="opacity-50">{publishDesc} ({publishDate.getFullYear()})</span>
+			<p class="mt-1 text-main opacity-50">
+				{publishDesc} ({publishDate.getFullYear()})
 			</p>
-			<p class="opacity-40 hover:opacity-80">DOI: <a href=`https://doi.org/${doi}` class="underline">{doi}</a></p>
-			<div>
+			{additionalInfo && <p class="mt-1 opacity-50">{additionalInfo}</p>}
+			<p class="mt-1 opacity-40 hover:opacity-80">DOI: <a href=`https://doi.org/${doi}` class="underline">{doi}</a></p>
+			<div class="mt-2">
 				<script is:inline>
 					const copyCite = async () => {
 						try {
