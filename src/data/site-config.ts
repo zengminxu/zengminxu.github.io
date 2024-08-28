@@ -20,7 +20,6 @@ export type SiteConfig = {
     title: string;
     subtitle?: string;
     description: string;
-    image?: Image;
     headerNavLinks?: Link[];
     footerNavLinks?: Link[];
     socialLinks?: Link[];
@@ -32,10 +31,6 @@ const siteConfig: SiteConfig = {
     title: 'Zengmin Xu',
     subtitle: 'Associate Professor',
     description: 'Website for Zengmin Xu and the research group.',
-    image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
-    },
     headerNavLinks: [
         {
             text: 'Home',

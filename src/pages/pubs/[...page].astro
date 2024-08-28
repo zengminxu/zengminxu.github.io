@@ -18,12 +18,7 @@ const { page } = Astro.props;
 const pubsInPage = page.data;
 ---
 
-<BaseLayout
-	title="Portfolio"
-	description="Explore a diverse portfolio showcasing my passion and expertise"
-	image={{ src: '/dante-preview.jpg', alt: 'The preview of the site' }}
-	showHeader={false}
->
+<BaseLayout title="Publications" description="All of my publications are listed here." showHeader={false}>
 	<h1 class="mb-12 text-2xl leading-tight font-serif italic sm:mb-16 sm:text-4xl">Publications</h1>
 	{pubsInPage.map((pub) => <PubPreview pub={pub} class="mb-10 sm:mb-12" />)}
 	<Pagination page={page} class="my-16 sm:my-24" />
