@@ -9,7 +9,7 @@ export const people = [
   {
     name: '陈家昆',
     role: '2019级应用数学专业',
-    desc: ' 概伦电子(国内EDA上市公司),算法工程师， 主研spice 和 fast spice模拟仿真器的开发,通过仿真给定电路来获得电路工作情况, 包括电路方程求解和电路结构处理，例如 KCL/KVL定理、牛顿迭代算法、LU分解和稀疏矩阵的求解方法等。 ',
+    desc: ' 概伦电子(国内EDA上市公司), 算法工程师, 主研spice 和 fast spice模拟仿真器的开发, 通过仿真给定电路来获得电路工作情况, 包括电路方程求解和电路结构处理, 例如 KCL/KVL定理、牛顿迭代算法、LU分解和稀疏矩阵的求解方法等。 ',
     avatar: 'cjk.jpg'
   },
   {
@@ -92,13 +92,15 @@ export const people = [
   }
 ];
 
-<section class="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+import { Image } from 'astro:assets';
+
+<section class="grid gap-8 grid-cols-2 sm:grid-cols-3">
   {people.map((person) => (
     <div>
-      <img class="w-full aspect-square rounded-lg" src={`/avatars/${person.avatar}`} alt={person.name} />
+      <Image class="w-full max-w-32 aspect-square rounded-lg" width={256} height={256} src={`/avatars/${person.avatar}`} alt={person.name} />
       <div>
-        <div class="font-serif text-2xl font-bold tracking-tight text-main mb-1">{person.name}</div>
-        <div class="text-main opacity-50">{person.role}</div>
+        <div class="font-serif text-lg sm:text-xl font-semibold tracking-tight text-main mb-1">{person.name}</div>
+        <div class="text-main opacity-50 text-sm">{person.role}</div>
         <div class="font-light text-sm text-main opacity-70 mt-2 mb-2">{person.desc}</div>
       </div>
     </div>
