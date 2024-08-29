@@ -1,21 +1,24 @@
 ---
 import { type CollectionEntry } from 'astro:content';
 import ArrowRight from '../icons/ArrowRight.astro';
+import SmallButton from './SmallButton.astro';
 
 type Props = { pub: CollectionEntry<'pubs'>; class?: string; headingLevel?: 'h2' | 'h3' };
 
 const { pub, class: className, headingLevel = 'h2' } = Astro.props;
-const { title, description, author, publishDate, publishDesc, additionalInfo } = pub.data;
+const { title, description, author, publishDate, publishDesc, additionalInfo, links } = pub.data;
 const TitleTag = headingLevel;
 ---
 
-<a class:list={['flex justify-between items-start gap-8 group', className]} href={`/pubs/${pub.slug}/`}>
+<div class:list={['flex justify-between items-start gap-8 group', className]}>
 	<div class="grow">
-		<TitleTag
-			class="text-lg leading-tight font-serif font-semibold group-hover:underline group-hover:decoration-dashed group-hover:underline-offset-4 group-hover:decoration-1 sm:text-xl"
-		>
-			{title}
-		</TitleTag>
+		<a href={`/pubs/${pub.slug}/`}>
+			<TitleTag
+				class="text-lg leading-tight font-serif font-semibold group-hover:underline group-hover:decoration-dashed group-hover:underline-offset-4 group-hover:decoration-1 sm:text-xl"
+			>
+				{title}
+			</TitleTag>
+		</a>
 		<div class="mt-1">
 			{author}
 		</div>
@@ -23,9 +26,20 @@ const TitleTag = headingLevel;
 			{publishDesc} ({publishDate.getFullYear()})
 		</div>
 		{additionalInfo && <div class="mt-1 text-sm opacity-50">({additionalInfo})</div>}
+		{
+			links && (
+				<div>
+					{links.map(({ label, url }) => (
+						<div>
+							<SmallButton href={url}>{label}</SmallButton>
+						</div>
+					))}
+				</div>
+			)
+		}
 		{description && <div class="mt-1 text-sm leading-normal">{description}</div>}
 	</div>
 	<div class="hidden font-serif italic opacity-0 transition group-hover:opacity-100 sm:inline-flex sm:gap-1 sm:items-center sm:shrink-0">
 		View More <ArrowRight class="fill-current w-4 h-4" />
 	</div>
-</a>
+</div>

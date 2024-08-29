@@ -1,0 +1,23 @@
+---
+import type { HTMLAttributes } from 'astro/types';
+
+type AnchorProps = HTMLAttributes<'a'> & { type?: never };
+type ButtonProps = HTMLAttributes<'button'> & { href?: never };
+
+type Props = ButtonProps | AnchorProps;
+
+const { href, class: className, ...rest } = Astro.props;
+const buttonClasses = 'inline-block mt-2 p-0.5 px-2 text-sm border rounded-full border-main hover:bg-muted';
+---
+
+{
+	href ? (
+		<a href={href} class:list={[buttonClasses, className]} {...rest}>
+			<slot />
+		</a>
+	) : (
+		<button class:list={[buttonClasses, className]} {...rest}>
+			<slot />
+		</button>
+	)
+}

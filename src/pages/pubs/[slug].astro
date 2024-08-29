@@ -2,6 +2,7 @@
 import { type CollectionEntry, getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { sortItemsByDateDesc } from '../../utils/data-utils';
+import SmallButton from '../../components/SmallButton.astro';
 
 export async function getStaticPaths() {
 	const pubs = (await getCollection('pubs')).sort(sortItemsByDateDesc);
@@ -14,11 +15,34 @@ export async function getStaticPaths() {
 type Props = { pub: CollectionEntry<'pubs'> };
 
 const { pub } = Astro.props;
-const { title, description, author, publishDate, publishDesc, cite, doi, additionalInfo, seo } = pub.data;
+const { title, description, author, publishDate, publishDesc, cite, doi, links, additionalInfo, seo } = pub.data;
 const { Content } = await pub.render();
 ---
 
 <BaseLayout title={seo?.title ?? title} description={seo?.description ?? description} pageType="article" showHeader={false}>
+	<div>
+		<script is:inline>
+			const copyCite = async () => {
+				try {
+					const citeButton = document.getElementById('cite-button');
+					const text = document.getElementById('cite-text')?.textContent;
+
+					await navigator.clipboard.writeText(text).then(() => {
+						citeButton.innerHTML = 'Copied!';
+						setTimeout(() => {
+							citeButton.textContent = 'Copy cite';
+						}, 2000);
+					});
+
+					console.log('Content copied to clipboard');
+				} catch (err) {
+					console.error('Failed to copy: ', err);
+				}
+			};
+		</script>
+		<span class="hidden" id="cite-text">{cite}</span>
+	</div>
+
 	<article class="mb-16 sm:mb-24">
 		<header class="mb-8">
 			<h1 class="text-2xl leading-tight font-serif font-semibold sm:text-3xl sm:leading-tight">{title}</h1>
@@ -27,29 +51,19 @@ const { Content } = await pub.render();
 				{publishDesc} ({publishDate.getFullYear()})
 			</p>
 			{additionalInfo && <p class="mt-1 opacity-50">{additionalInfo}</p>}
-			<p class="mt-1 opacity-40 hover:opacity-80">DOI: <a href=`https://doi.org/${doi}` class="underline">{doi}</a></p>
+			{
+				doi && (
+					<p class="mt-1 opacity-40 hover:opacity-80">
+						DOI:
+						<a href={`https://doi.org/${doi}`} class="underline">
+							{doi}
+						</a>
+					</p>
+				)
+			}
 			<div class="mt-2">
-				<script is:inline>
-					const copyCite = async () => {
-						try {
-							const citeButton = document.getElementById('cite-button');
-							const text = document.getElementById('cite-text')?.textContent;
-
-							await navigator.clipboard.writeText(text).then(() => {
-								citeButton.innerHTML = 'Copied!';
-								setTimeout(() => {
-									citeButton.textContent = 'Copy cite';
-								}, 2000);
-							});
-
-							console.log('Content copied to clipboard');
-						} catch (err) {
-							console.error('Failed to copy: ', err);
-						}
-					};
-				</script>
-				<span class="hidden" id="cite-text">{cite}</span>
-				<button class="mt-2 p-0.5 px-2 text-sm border rounded-full border-main hover:bg-muted" id="cite-button" onclick="copyCite()">Copy cite</button>
+				<SmallButton id="cite-button" onclick="copyCite()">Copy cite</SmallButton>
+				{links && links.map(({ label, url }) => <SmallButton href={url}>{label}</SmallButton>)}
 			</div>
 		</header>
 		<div class="max-w-none prose prose-dante sm:prose-lg">

@@ -23,7 +23,15 @@ const pubs = defineCollection({
         doi: z.string().optional(),
         cite: z.string(),
         additionalInfo: z.string().optional(),
-        seo: seoSchema.optional()
+        seo: seoSchema.optional(),
+        links: z
+            .array(
+                z.object({
+                    label: z.string(),
+                    url: z.string().url()
+                })
+            )
+            .optional()
     })
 });
 
