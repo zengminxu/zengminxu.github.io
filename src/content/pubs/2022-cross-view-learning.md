@@ -6,7 +6,7 @@ publishDesc: 'China Intelligent Robotics Annual Conference. Singapore: Springer 
 description: ''
 doi: 10.1007/978-981-99-0301-6_19
 cite: 'Zhang X, Xu Z, Wang L, et al. Cross-View Nearest Neighbor Contrastive Learning of Human Skeleton Representation[C]//China Intelligent Robotics Annual Conference. Singapore: Springer Nature Singapore, 2022: 237-256.'
-additionalInfo: EI会议，通信作者
+additionalInfo: EI会议，通讯作者
 ---
 
 ## Abstract
