@@ -38,6 +38,10 @@ const siteConfig: SiteConfig = {
             href: '/'
         },
         {
+            text: 'Researches',
+            href: '/researches'
+        },
+        {
             text: 'Publications',
             href: '/pubs'
         },
