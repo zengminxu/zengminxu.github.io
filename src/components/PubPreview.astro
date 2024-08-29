@@ -28,11 +28,9 @@ const TitleTag = headingLevel;
 		{additionalInfo && <div class="mt-1 text-sm opacity-50">({additionalInfo})</div>}
 		{
 			links && (
-				<div>
+				<div class="flex gap-1">
 					{links.map(({ label, url }) => (
-						<div>
-							<SmallButton href={url}>{label}</SmallButton>
-						</div>
+						<SmallButton href={url}>{label}</SmallButton>
 					))}
 				</div>
 			)

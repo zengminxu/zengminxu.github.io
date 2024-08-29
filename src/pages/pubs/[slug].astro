@@ -61,7 +61,7 @@ const { Content } = await pub.render();
 					</p>
 				)
 			}
-			<div class="mt-2">
+			<div class="mt-2 flex gap-2">
 				<SmallButton id="cite-button" onclick="copyCite()">Copy cite</SmallButton>
 				{links && links.map(({ label, url }) => <SmallButton href={url}>{label}</SmallButton>)}
 			</div>

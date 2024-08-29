@@ -6,6 +6,8 @@ publishDesc: '计算机工程与应用'
 description: ''
 cite: '王露露，徐增敏，张雪莲等. 跨视图时序对比学习的自监督视频表征算法[J]. 计算机工程与应用, 2024, 10.'
 links:
+  - label: 'PDF'
+    url: '/pdfs/[2024] Cross-View Temporal Contrastive Learning for Self-Supervised Video Representation.pdf'
   - label: 'Code'
     url: 'https://github.com/wangll1212/CVTCL'
 ---
