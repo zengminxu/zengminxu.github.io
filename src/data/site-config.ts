@@ -24,6 +24,7 @@ export type SiteConfig = {
     footerNavLinks?: Link[];
     socialLinks?: Link[];
     hero?: Hero;
+    pubsOnLandingPage?: number;
     pubsPerPage?: number;
 };
 
@@ -79,6 +80,7 @@ const siteConfig: SiteConfig = {
             }
         ]
     },
+    pubsOnLandingPage: 5,
     pubsPerPage: 120
 };
 

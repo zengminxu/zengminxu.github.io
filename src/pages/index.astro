@@ -8,7 +8,7 @@ import siteConfig from '../data/site-config';
 import { sortItemsByDateDesc } from '../utils/data-utils';
 
 const pubs = (await getCollection('pubs')).sort(sortItemsByDateDesc);
-const lasestPubs = pubs.slice(0, siteConfig.pubsPerPage);
+const lasestPubs = pubs.slice(0, siteConfig.pubsOnLandingPage);
 ---
 
 <BaseLayout description={siteConfig.description}>
