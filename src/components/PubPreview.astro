@@ -26,18 +26,20 @@ const TitleTag = headingLevel;
 			{publishDesc} ({publishDate.getFullYear()})
 		</div>
 		{additionalInfo && <div class="mt-1 text-sm opacity-50">({additionalInfo})</div>}
-		{
-			links && (
-				<div class="flex gap-1">
-					{links.map(({ label, url }) => (
-						<SmallButton href={url}>{label}</SmallButton>
-					))}
-				</div>
-			)
-		}
+		<div class="flex items-end mt-1 gap-4">
+			{
+				links && (
+					<div class="flex gap-1">
+						{links.map(({ label, url }) => (
+							<SmallButton href={url}>{label}</SmallButton>
+						))}
+					</div>
+				)
+			}
+			<div class="hidden font-serif italic opacity-0 transition group-hover:opacity-100 sm:inline-flex sm:gap-1 sm:items-center">
+				View More <ArrowRight class="fill-current w-4 h-4" />
+			</div>
+		</div>
 		{description && <div class="mt-1 text-sm leading-normal">{description}</div>}
-	</div>
-	<div class="hidden font-serif italic opacity-0 transition group-hover:opacity-100 sm:inline-flex sm:gap-1 sm:items-center sm:shrink-0">
-		View More <ArrowRight class="fill-current w-4 h-4" />
 	</div>
 </div>
