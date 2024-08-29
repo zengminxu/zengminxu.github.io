@@ -8,11 +8,12 @@ type Props = { pub: CollectionEntry<'pubs'>; class?: string; headingLevel?: 'h2'
 const { pub, class: className, headingLevel = 'h2' } = Astro.props;
 const { title, description, author, publishDate, publishDesc, additionalInfo, links } = pub.data;
 const TitleTag = headingLevel;
+const pubPageUrl = `/pubs/${pub.slug}/`;
 ---
 
 <div class:list={['flex justify-between items-start gap-8 group', className]}>
 	<div class="grow">
-		<a href={`/pubs/${pub.slug}/`}>
+		<a href={pubPageUrl}>
 			<TitleTag
 				class="text-lg leading-tight font-serif font-semibold group-hover:underline group-hover:decoration-dashed group-hover:underline-offset-4 group-hover:decoration-1 sm:text-xl"
 			>
@@ -36,9 +37,9 @@ const TitleTag = headingLevel;
 					</div>
 				)
 			}
-			<div class="hidden font-serif italic opacity-0 transition group-hover:opacity-100 sm:inline-flex sm:gap-1 sm:items-center">
+			<a href={pubPageUrl} class="hidden font-serif italic opacity-0 transition group-hover:opacity-100 sm:inline-flex sm:gap-1 sm:items-center">
 				View More <ArrowRight class="fill-current w-4 h-4" />
-			</div>
+			</a>
 		</div>
 		{description && <div class="mt-1 text-sm leading-normal">{description}</div>}
 	</div>
