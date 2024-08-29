@@ -5,6 +5,9 @@ seo:
   description: Learn more about the person behind the website.
 ---
 
+<img src="/avatars/xzm.jpg" alt="Zengmin Xu" class="mx-auto aspect-square size-64 rounded-full object-cover border-2 border-muted" />
+<h2 class="mx-auto text-center !mt-6">Zengmin Xu</h2>
+
 - Ph.D. in National Multimedia Software Engineering Technology Research Center, specializing in Computer Application Technology at Wuhan University.
 - Associate Professor and Master's Supervisor at Guilin University of Electronic Technology.
 - External Expert at China-ASEAN Information Port Co., Ltd.
