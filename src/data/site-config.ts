@@ -79,7 +79,7 @@ const siteConfig: SiteConfig = {
             }
         ]
     },
-    pubsPerPage: 8
+    pubsPerPage: 120
 };
 
 export default siteConfig;
