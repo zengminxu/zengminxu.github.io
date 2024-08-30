@@ -8,6 +8,8 @@ doi: 10.1007/s44267-024-00047-w
 cite: 'Lin H, Cai D, Xu Z, et al. Fabric4show: real-time vision system for fabric defect detection and post-processing[J]. Visual Intelligence, 2024, 2(1): 13.'
 additionalInfo: 中国图象图形学学会期刊, 通讯作者
 links:
+  - label: 'PDF'
+    url: '/pdfs/[2024] Fabric4show real-time vision system for fabric defect detection and post-processing.pdf'
   - label: 'Code'
     url: 'https://github.com/linhuaizhou/yida_gedc_fabric4show'
   - label: 'Data'
