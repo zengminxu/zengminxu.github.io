@@ -13,7 +13,7 @@ links:
   - label: 'Code'
     url: 'https://github.com/linhuaizhou/yida_gedc_fabric4show'
   - label: 'Data'
-    url: '/pubs/2024-fabric4show#datasets'
+    url: '/pubs/2024-fabric4show/#datasets'
 thumbnail: '/thumbnails/2024-fabric4show.png'
 ---
 
