@@ -12,6 +12,7 @@ links:
     url: '/pdfs/[2022] XGBoost-based Survival Analysis in Business Risk Prediction.pdf'
   - label: 'Code'
     url: 'https://github.com/zengminxu/XGBoost-based-Survival-Analysis-in-Business-Risk-Prediction'
+thumbnail: '/thumbnails/2022-xgboost-based.png'
 ---
 
 ## Abstract

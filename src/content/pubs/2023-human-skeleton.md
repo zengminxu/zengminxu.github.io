@@ -10,6 +10,7 @@ links:
     url: '/pdfs/[2023] Human skeleton for action recognition based on cross-scale graph contrastive learning.pdf'
   - label: Code
     url: 'https://github.com/wulala-source/CrosScale-SGCLR'
+thumbnail: '/thumbnails/2023-human-skeleton.jpg'
 ---
 
 ## Abstract

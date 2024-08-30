@@ -7,6 +7,10 @@ description: ''
 doi: 10.1109/TNNLS.2018.2886008
 cite: 'Xu Z, Hu R, Chen J, et al. Semisupervised discriminant multimanifold analysis for action recognition[J]. IEEE transactions on neural networks and learning systems, 2019, 30(10): 2951-2962.'
 additionalInfo: SCI一区, IF=14.255, CCF B刊
+thumbnail: '/thumbnails/2019-semisupervised-discriminant.jpg'
+links:
+  - label: 'PDF'
+    url: '/pdfs/[2019] Semisupervised Discriminant Multimanifold Analysis for Action Recognition.pdf'
 ---
 
 ## Abstract

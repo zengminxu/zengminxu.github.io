@@ -2,17 +2,23 @@
 import { type CollectionEntry } from 'astro:content';
 import ArrowRight from '../icons/ArrowRight.astro';
 import SmallButton from './SmallButton.astro';
+import siteConfig from '../data/site-config';
+import { Image } from 'astro:assets';
 
 type Props = { pub: CollectionEntry<'pubs'>; class?: string; headingLevel?: 'h2' | 'h3' };
 
 const { pub, class: className, headingLevel = 'h2' } = Astro.props;
-const { title, description, author, publishDate, publishDesc, additionalInfo, links } = pub.data;
+const { title, description, author, publishDate, publishDesc, additionalInfo, links, thumbnail } = pub.data;
 const TitleTag = headingLevel;
 const pubPageUrl = `/pubs/${pub.slug}/`;
+const thumbnailUrl = thumbnail ?? siteConfig.pubsFallbackThumbnail;
 ---
 
-<div class:list={['flex justify-between items-start gap-8 group', className]}>
+<div class:list={['flex flex-col sm:flex-row justify-between items-start gap-8 group', className]}>
 	<div class="grow">
+		<div class="sm:hidden mb-4 rounded-lg overflow-hidden">
+			<Image src={thumbnailUrl} alt={`Cover for ${title}`} class="object-cover aspect-[16/10] w-full" width={640} height={400} loading="eager" />
+		</div>
 		<a href={pubPageUrl}>
 			<TitleTag
 				class="text-lg leading-tight font-serif font-semibold group-hover:underline group-hover:decoration-dashed group-hover:underline-offset-4 group-hover:decoration-1 sm:text-xl"
@@ -43,4 +49,12 @@ const pubPageUrl = `/pubs/${pub.slug}/`;
 		</div>
 		{description && <div class="mt-1 text-sm leading-normal">{description}</div>}
 	</div>
+	<Image
+		src={thumbnailUrl}
+		alt={`Cover for ${title}`}
+		class="aspect-[16/10] object-cover rounded-lg hidden sm:block sm:w-40 md:w-48 lg:w-56"
+		width={640}
+		height={400}
+		loading="eager"
+	/>
 </div>

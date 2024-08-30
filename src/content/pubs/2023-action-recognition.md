@@ -7,6 +7,9 @@ description: ''
 doi: 10.3390/app13137684
 cite: 'Xu Z, Li X, Li J, et al. Action Recognition via Adaptive Semi-Supervised Feature Analysis[J]. Applied Sciences, 2023, 13(13): 7684.'
 additionalInfo: SCI，第一作者
+links:
+  - label: 'PDF'
+    url: '/pdfs/[2023] Action Recognition via Adaptive Semi-Supervised Feature Analysis.pdf'
 ---
 
 ## Abstract

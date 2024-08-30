@@ -10,6 +10,7 @@ additionalInfo: EI会议，通讯作者
 links:
   - label: PDF
     url: '/pdfs/[2022] Cross-View Nearest Neighbor Contrastive Learning of Human Skeleton Representation.pdf'
+thumbnail: '/thumbnails/2022-cross-view.jpg'
 ---
 
 ## Abstract

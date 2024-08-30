@@ -10,6 +10,7 @@ links:
     url: '/pdfs/[2024] Cross-View Temporal Contrastive Learning for Self-Supervised Video Representation.pdf'
   - label: 'Code'
     url: 'https://github.com/wangll1212/CVTCL'
+thumbnail: '/thumbnails/2024-cross-view.jpg'
 ---
 
 ## Abstract

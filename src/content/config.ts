@@ -31,7 +31,8 @@ const pubs = defineCollection({
                     url: z.string()
                 })
             )
-            .optional()
+            .optional(),
+        thumbnail: z.string().optional()
     })
 });
 

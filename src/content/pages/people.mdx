@@ -97,7 +97,7 @@ import { Image } from 'astro:assets';
 <section class="grid gap-8 grid-cols-2 sm:grid-cols-3">
   {people.map((person) => (
     <div>
-      <Image class="w-full max-w-32 aspect-square rounded-lg" width={256} height={256} src={`/avatars/${person.avatar}`} alt={person.name} />
+      <Image class="w-full max-w-32 aspect-square rounded-lg object-cover" width={256} height={256} src={`/avatars/${person.avatar}`} alt={person.name} />
       <div>
         <div class="font-serif text-lg sm:text-xl font-semibold tracking-tight text-main mb-1">{person.name}</div>
         <div class="text-main opacity-50 text-sm">{person.role}</div>

@@ -26,6 +26,7 @@ export type SiteConfig = {
     hero?: Hero;
     pubsOnLandingPage?: number;
     pubsPerPage?: number;
+    pubsFallbackThumbnail: string;
 };
 
 const siteConfig: SiteConfig = {
@@ -85,7 +86,8 @@ const siteConfig: SiteConfig = {
         ]
     },
     pubsOnLandingPage: 5,
-    pubsPerPage: 120
+    pubsPerPage: 120,
+    pubsFallbackThumbnail: 'https://dummyimage.com/640x400/eae9e1/171717'
 };
 
 export default siteConfig;

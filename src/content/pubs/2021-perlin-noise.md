@@ -7,6 +7,9 @@ description: ''
 doi: 10.48550/arXiv.2112.13408
 cite: 'Chengjun Tang, Kun Zhang, Chunfang Xing, Yong Ding, Zengmin Xu. Perlin Noise Improve Adversarial Robustness[C]//International Conference on Advanced Computing and Endogenous Security (ICACES), Nanjing, China, 2021.'
 additionalInfo: EI
+links:
+  - label: 'PDF'
+    url: '/pdfs/[2021] Perlin Noise Improve Adversarial Robustness.pdf'
 ---
 
 ## Abstract
