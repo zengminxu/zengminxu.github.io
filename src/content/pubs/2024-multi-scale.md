@@ -9,6 +9,8 @@ additionalInfo: Accepted, SCI三区
 links:
   - label: 'PDF'
     url: '/pdfs/[2024] Multi-scale Motion Contrastive Learning for Self-supervised Skeleton-based Action Recognition.pdf'
+  - label: 'Code'
+    url: 'https://github.com/zengminxu/MsMCLR-Code'
 thumbnail: '/thumbnails/2024-multi-scale.png'
 ---
 

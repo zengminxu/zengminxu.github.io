@@ -9,6 +9,8 @@ doi: '10.11896/jsjkx.230500158'
 links:
   - label: 'PDF'
     url: '/pdfs/[2023] Self-supervised Action Recognition Based on Skeleton Data Augmentation and Double Nearest Neighbor Retrieval.pdf'
+  - label: 'Code'
+    url: 'https://github.com/zengminxu/DNNCLR-Code'
 thumbnail: '/thumbnails/2023-self-supervised.png'
 ---
 

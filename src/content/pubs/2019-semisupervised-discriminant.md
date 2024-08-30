@@ -11,6 +11,8 @@ thumbnail: '/thumbnails/2019-semisupervised-discriminant.jpg'
 links:
   - label: 'PDF'
     url: '/pdfs/[2019] Semisupervised Discriminant Multimanifold Analysis for Action Recognition.pdf'
+  - label: 'Code'
+    url: 'https://github.com/zengminxu/Semisupervised-discriminant-multimanifold-analysis-for-action-recognition'
 ---
 
 ## Abstract

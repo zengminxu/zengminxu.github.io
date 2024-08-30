@@ -11,6 +11,8 @@ thumbnail: '/thumbnails/2017-action-recognition.png'
 links:
   - label: 'PDF'
     url: '/pdfs/[2017] Action recognition by saliency-based dense sampling.pdf'
+  - label: 'Code'
+    url: 'https://github.com/zengminxu/iDT-RCB-Code'
 ---
 
 ## Abstract
