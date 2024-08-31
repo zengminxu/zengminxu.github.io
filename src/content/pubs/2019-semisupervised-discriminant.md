@@ -1,6 +1,6 @@
 ---
 title: Semisupervised discriminant multimanifold analysis for action recognition
-author: Xu, Zengmin and Hu, Ruimin and Chen, Jun and Chen, Chen and Jiang, Junjun and Li, Jiaofen and Li, Hongyang
+author: Zengmin Xu, Ruimin Hu, Jun Chen, Chen Chen, Junjun Jiang, Jiaofen Li, Hongyang Li
 publishDate: 2019-02-13
 publishDesc: 'IEEE Transactions on Neural Networks and Learning Systems'
 description: ''
@@ -10,7 +10,7 @@ additionalInfo: SCI一区, IF=14.255, CCF B刊
 thumbnail: '/thumbnails/2019-semisupervised-discriminant.jpg'
 links:
   - label: 'PDF'
-    url: '/pdfs/[2019] Semisupervised Discriminant Multimanifold Analysis for Action Recognition.pdf'
+    url: '/pdfs/[2019] Semisupervised discriminant multimanifold analysis for action recognition.pdf'
   - label: 'Code'
     url: 'https://github.com/zengminxu/Semisupervised-discriminant-multimanifold-analysis-for-action-recognition'
 ---

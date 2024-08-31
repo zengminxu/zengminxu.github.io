@@ -1,6 +1,6 @@
 ---
 title: 'SSA-ECNet: Semantic Segmentation Architecture with Enhanced Cross-Attention Mechanism'
-author: Li, Minghui and Xu, Zengmin and Meng, Ruxing and Wei, Lingli and Luo, Weisen
+author: Minghui Li, Zengmin Xu, Ruxing Meng, Lingli Wei, Weisen Luo
 publishDate: 2024-06-18
 publishDesc: '2024 7th International Conference on Advanced Algorithms and Control Engineering (ICAACE)'
 description: ''
@@ -10,6 +10,7 @@ additionalInfo: EI
 links:
   - label: 'PDF'
     url: '/pdfs/[2024] SSA-ECNet Semantic Segmentation Architecture with Enhanced Cross-Attention Mechanism.pdf'
+thumbnail: '/thumbnails/2024-ssa-ecnet.png'
 ---
 
 ## Abstract

@@ -1,6 +1,6 @@
 ---
 title: Action recognition by saliency-based dense sampling
-author: Xu, Zengmin and Hu, Ruimin and Chen, Jun and Chen, Chen and Chen, Huafeng and Li, Hongyang and Sun, Qingquan
+author: Zengmin Xu, Ruimin Hu, Jun Chen, Chen Chen, Huafeng Chen, Hongyang Li, Qingquan Sun
 publishDate: 2017-02-28
 publishDesc: 'Neurocomputing'
 description: ''

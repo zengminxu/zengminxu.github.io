@@ -1,6 +1,6 @@
 ---
 title: Cross-View Nearest Neighbor Contrastive Learning of Human Skeleton Representation
-author: Zhang, Xuelian and Xu, Zengmin and Wang, Lulu and Chen, Jiakun
+author: Xuelian Zhang, Xu, Zengmin and Lulu Wang, Jiakun Chen
 publishDate: 2023-02-18
 publishDesc: 'China Intelligent Robotics Annual Conference. Singapore: Springer Nature Singapore, 2022'
 description: ''
@@ -10,6 +10,8 @@ additionalInfo: EI会议，通讯作者
 links:
   - label: PDF
     url: '/pdfs/[2022] Cross-View Nearest Neighbor Contrastive Learning of Human Skeleton Representation.pdf'
+  - label: Code
+    url: 'https://github.com/wulala-source/CrosNNCLR-SkeletonCLR'
 thumbnail: '/thumbnails/2022-cross-view.jpg'
 ---
 

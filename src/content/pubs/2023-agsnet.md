@@ -1,6 +1,6 @@
 ---
 title: 'AgsNet: An Attention-Guided Lightweight Segmentation Network'
-author: Li, Minghui and Xu, Zengmin and Zhang, Yichuan and Wei, Lingli and Zhou, Ningjie and Cui, Yanan
+author: Minghui Li, Zengmin Xu, Yichuan Zhang, Lingli Wei, Ningjie Zhou, Yanan Cui
 publishDate: 2023-03-23
 publishDesc: 'International Conference on Artificial Intelligence in China (ChinaAI)'
 description: ''
@@ -10,6 +10,7 @@ additionalInfo: EI
 links:
   - label: 'PDF'
     url: '/pdfs/[2023] AgsNet An Attention-Guided Lightweight Segmentation Network.pdf'
+thumbnail: '/thumbnails/2023-agsnet.png'
 ---
 
 ## Abstract

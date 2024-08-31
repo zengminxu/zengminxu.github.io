@@ -1,12 +1,16 @@
 ---
 title: Multiple instance discriminative dictionary learning for action recognition
-author: Li, Hongyang and Chen, Jun and Xu, Zengmin and Chen, Huafeng and Hu, Ruimin
+author: Hongyang Li, Jun Chen, Zengmin Xu, Huafeng Chen, Ruimin Hu
 publishDate: 2016-05-19
 publishDesc: '2016 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)'
 description: ''
 doi: 10.1109/ICASSP.2016.7472030
 cite: 'Li H, Chen J, Xu Z, et al. Multiple instance discriminative dictionary learning for action recognition[C]//2016 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2016: 2014-2018.'
 additionalInfo: (EI) CCF B会
+links:
+  - label: 'PDF'
+    url: '/pdfs/[2016] Multiple instance discriminative dictionary learning for action recognition.pdf'
+thumbnail: '/thumbnails/2016-multiple-instance.png'
 ---
 
 ## Abstract

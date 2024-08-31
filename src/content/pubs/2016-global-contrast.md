@@ -1,6 +1,6 @@
 ---
 title: Global contrast based salient region boundary sampling for action recognition
-author: Xu, Zengmin and Hu, Ruimin and Chen, Jun and Chen, Huafeng and Li, Hongyang
+author: Zengmin Xu, Ruimin Hu, Jun Chen, Huafeng Chen, Hongyang Li
 publishDate: 2016-01-03
 publishDesc: 'MultiMedia Modeling: 22nd International Conference, MMM 2016'
 description: ''

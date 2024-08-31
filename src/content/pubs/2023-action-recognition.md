@@ -1,6 +1,6 @@
 ---
 title: Action Recognition via Adaptive Semi-Supervised Feature Analysis
-author: Xu, Zengmin and Li, Xiangli and Li, Jiaofen and Chen, Huafeng and Hu, Ruimin
+author: Zengmin Xu, Xiangli Li, Jiaofen Li, Huafeng Chen, Ruimin Hu
 publishDate: 2023-06-29
 publishDesc: 'Applied Sciences'
 description: ''
@@ -10,6 +10,7 @@ additionalInfo: SCI，第一作者
 links:
   - label: 'PDF'
     url: '/pdfs/[2023] Action Recognition via Adaptive Semi-Supervised Feature Analysis.pdf'
+thumbnail: '/thumbnails/2023-action-recognition.png'
 ---
 
 ## Abstract

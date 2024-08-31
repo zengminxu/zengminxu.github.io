@@ -1,6 +1,6 @@
 ---
 title: 'Fabric4show: real-time vision system for fabric defect detection and post-processing'
-author: Lin, Huaizhou and Cai, Dan and Xu, Zengmin and Wu, Jinsong and Sun, Lixian and Jia, Haibin
+author: Huaizhou Lin, Dan Cai, Zengmin Xu, Jinsong Wu, Lixian Sun, Haibin Jia
 publishDate: 2024-06-03
 publishDesc: 'Visual Intelligence'
 description: ''

@@ -16,7 +16,7 @@ const thumbnailUrl = thumbnail ?? siteConfig.pubsFallbackThumbnail;
 
 <div class:list={['flex flex-col sm:flex-row justify-between items-start gap-8 group', className]}>
 	<div class="grow">
-		<div class="sm:hidden mb-4 rounded-lg overflow-hidden">
+		<div class="sm:hidden mb-4 rounded-lg overflow-hidden shadow">
 			<Image src={thumbnailUrl} alt={`Cover for ${title}`} class="object-cover aspect-[16/10] w-full" width={640} height={400} loading="eager" />
 		</div>
 		<a href={pubPageUrl}>
@@ -52,7 +52,7 @@ const thumbnailUrl = thumbnail ?? siteConfig.pubsFallbackThumbnail;
 	<Image
 		src={thumbnailUrl}
 		alt={`Cover for ${title}`}
-		class="aspect-[16/10] object-cover rounded-lg hidden sm:block sm:w-40 md:w-48 lg:w-56"
+		class="aspect-[16/10] object-cover rounded-lg hidden shadow sm:block sm:w-40 md:w-48 lg:w-56"
 		width={640}
 		height={400}
 		loading="eager"

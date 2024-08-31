@@ -1,6 +1,6 @@
 ---
 title: How much bandwidth does surveillance system require?
-author: Xu, Zengmin and Hu, Ruimin and Chen, Jun and Li, Hongyang and Chen, Huafeng
+author: Zengmin Xu, Ruimin Hu, Jun Chen, Hongyang Li, Huafeng Chen
 publishDate: 2015-12-10
 publishDesc: '2015 IEEE International Conference on Image Processing (ICIP)'
 description: ''
@@ -10,6 +10,7 @@ additionalInfo: (EI) CCF C会
 links:
   - label: 'PDF'
     url: '/pdfs/[2015] How much bandwidth does surveillance system require.pdf'
+thumbnail: '/thumbnails/2015-how-much.png'
 ---
 
 ## Abstract

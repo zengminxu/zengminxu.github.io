@@ -1,6 +1,6 @@
 ---
 title: 'Multi-scale Motion Contrastive Learning for Self-supervised Skeleton-based Action Recognition'
-author: Yushan Wu, Zengmin Xu, Mengwei Yuan, Tianchi Tang, Ruxing Meng and Zhongyuan Wang
+author: Yushan Wu, Zengmin Xu, Mengwei Yuan, Tianchi Tang, Ruxing Meng, Zhongyuan Wang
 publishDate: 2024-08-30
 publishDesc: 'Multimedia Systems'
 description: ''

@@ -1,6 +1,6 @@
 ---
 title: Perlin Noise Improve Adversarial Robustness
-author: Tang, Chengjun and Zhang, Kun and Xing, Chunfang and Ding, Yong and Xu, Zengmin
+author: Chengjun Tang, Kun Zhang, Chunfang Xing, Yong Ding, Zengmin Xu
 publishDate: 2021-12-26
 publishDesc: 'International Conference on Advanced Computing and Endogenous Security (ICACES)'
 description: ''
@@ -10,6 +10,7 @@ additionalInfo: EI
 links:
   - label: 'PDF'
     url: '/pdfs/[2021] Perlin Noise Improve Adversarial Robustness.pdf'
+thumbnail: '/thumbnails/2021-perlin-noise.png'
 ---
 
 ## Abstract

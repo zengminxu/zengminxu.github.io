@@ -1,6 +1,6 @@
 ---
 title: XGBoost-based Survival Analysis in Business Risk Prediction
-author: Li, Ying-ying and Xu, Zeng-min and Feng, Cong and Jiang, You
+author: Yingying Li, Zengmin Xu, Cong Feng, You Jiang
 publishDate: 2022-12-10
 publishDesc: '2022 International Conference on High Performance Big Data and Intelligent Systems (HDIS)'
 description: ''
