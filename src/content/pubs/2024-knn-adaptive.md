@@ -9,6 +9,8 @@ additionalInfo: 'EI, Best Paper Award'
 links:
   - label: 'PDF'
     url: '/pdfs/[2024] KNN Adaptive Dual Attention for Object Detection.pdf'
+  - label: 'Code'
+    url: 'https://github.com/zengminxu/KADA-yolov5'
 thumbnail: '/thumbnails/2024-knn-adaptive.png'
 ---
 
