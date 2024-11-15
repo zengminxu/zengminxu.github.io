@@ -5,6 +5,7 @@ publishDate: 2023-01-01
 publishDesc: '燕山大学学报'
 description: ''
 cite: '张雪莲，徐增敏，陈家昆等. 基于跨尺度图对比学习的人体骨架动作识别方法[J]. 燕山大学学报, 2023, 47(02):164-174.'
+additionalInfo: 北核
 links:
   - label: PDF
     url: '/pdfs/[2023] Human skeleton for action recognition based on cross-scale graph contrastive learning.pdf'

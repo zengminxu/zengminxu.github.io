@@ -4,6 +4,7 @@ author: 吴雨珊, 徐增敏, 张雪莲, 王涛
 publishDate: 2023-11-06
 publishDesc: '计算机科学'
 description: ''
+additionalInfo: 'CCF T2, 北核'
 cite: '吴雨珊, 徐增敏, 张雪莲, 王涛. 骨架数据增强和双重最近邻检索自监督动作识别[J]. 计算机科学, 2023, 50(11): 97-106. https://doi.org/10.11896/jsjkx.230500158'
 doi: '10.11896/jsjkx.230500158'
 links:

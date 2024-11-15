@@ -1,15 +1,16 @@
 ---
 title: Real-time action feature extraction via fast PCA-Flow
 author: Huafeng Chen, Hongyang Li, Zengmin Xu, Yunhong Zhao, Tigang He
-publishDate: 2019-10-15
-publishDesc: 'Concurrency and Computation: Practice and Experience, 2021'
+publishDate: 2021-10-15
+publishDesc: 'Concurrency and Computation: Practice and Experience'
 description: ''
+additionalInfo: 'SCI, 中科院4区, JCR Q2, IF=1.5'
 doi: 10.1002/cpe.5507
 cite: 'Chen H, Li H, Xu Z, et al. Real‐time action feature extraction via fast PCA‐Flow[J]. Concurrency and Computation: Practice and Experience, 2021, 33(11): e5507.'
 links:
   - label: PDF
-    url: '/pdfs/[2019] Real-time action feature extraction via fast PCA-Flow.pdf'
-thumbnail: '/thumbnails/2019-real-time.png'
+    url: '/pdfs/[2021] Real-time action feature extraction via fast PCA-Flow.pdf'
+thumbnail: '/thumbnails/2021-real-time.png'
 ---
 
 ## Abstract

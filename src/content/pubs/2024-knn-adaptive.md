@@ -2,7 +2,7 @@
 title: 'KNN Adaptive Dual Attention for Object Detection'
 author: Hongrun Zhu, Zengmin Xu, Ruxing Meng, Longfei Liu
 publishDate: 2024-04-26
-publishDesc: 'International Conference on Frontiers of Artificial Intelligence and Machine Learning (FAIML), Yichang, China, 2024'
+publishDesc: 'International Conference on Frontiers of Artificial Intelligence and Machine Learning (FAIML)'
 description: ''
 cite: 'Hongrun Zhu, Zengmin Xu, Ruxing Meng, et al. KNN Adaptive Dual Attention for Object Detection[C]//International Conference on Frontiers of Artificial Intelligence and Machine Learning (FAIML), Yichang, China, 2024.'
 additionalInfo: 'EI, Best Paper Award'

@@ -6,7 +6,7 @@ publishDesc: 'Multimedia Systems'
 description: ''
 doi: 10.1007/s00530-024-01463-0
 cite: 'Wu Y, Xu Z, Yuan M, et al. Multi-scale motion contrastive learning for self-supervised skeleton-based action recognition[J]. Multimedia Systems, 2024, 30(5): 1-14.'
-additionalInfo: SCI三区, IF=3.5, CCF C刊
+additionalInfo: SCI, 中科院3区, JCR Q1, IF=3.5, CCF C刊
 links:
   - label: 'PDF'
     url: '/pdfs/[2024] Multi-scale Motion Contrastive Learning for Self-supervised Skeleton-based Action Recognition.pdf'

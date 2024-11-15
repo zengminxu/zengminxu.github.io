@@ -4,6 +4,7 @@ author: 王露露, 徐增敏, 张雪莲, 蒙儒省, 卢涛
 publishDate: 2024-04-16
 publishDesc: '计算机工程与应用'
 description: ''
+additionalInfo: 'EI源刊, CCF T2, 北核'
 cite: '王露露，徐增敏，张雪莲等. 跨视图时序对比学习的自监督视频表征算法[J]. 计算机工程与应用, 2024, 10.'
 links:
   - label: 'PDF'

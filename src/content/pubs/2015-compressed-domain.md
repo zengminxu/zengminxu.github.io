@@ -2,11 +2,11 @@
 title: Compressed-domain based camera motion estimation for realtime action recognition
 author: Huafeng Chen, Jun Chen, Hongyang Li, Zengmin Xu, Ruimin Hu
 publishDate: 2015-11-22
-publishDesc: 'Advances in Multimedia Information Processing--PCM 2015'
+publishDesc: 'Advances in Multimedia Information Processing (PCM)'
 description: ''
 doi: 10.1007/978-3-319-24075-6_9
 cite: 'Chen H, Chen J, Li H, et al. Compressed-domain based camera motion estimation for realtime action recognition[C]//Advances in Multimedia Information Processing--PCM 2015: 16th Pacific-Rim Conference on Multimedia, Gwangju, South Korea, September 16-18, 2015, Proceedings, Part I 16. Springer International Publishing, 2015: 85-94.'
-additionalInfo: (EI) CCF C会
+additionalInfo: EI, CCF C会
 links:
   - label: 'PDF'
     url: '/pdfs/[2015] Compressed-domain based camera motion estimation for realtime action recognition.pdf'

@@ -3,11 +3,14 @@ title: 'Semisupervised Action Recognition with Adaptive Correlation Learning'
 author: Fan Wang, Zengmin Xu, Jiakun Chen, Ruimin Hu
 publishDate: 2024-11-11
 description: ''
-publishDesc: ''
+publishDesc: 'International Journal of Machine Learning and Cybernetics'
 cite: 'No Cite.'
+additionalInfo: Accepted, SCI 三区, CAAI C刊
 links:
   - label: 'PDF'
     url: '/pdfs/[2024] Semisupervised Action Recognition with Adaptive Correlation Learning.pdf'
+  - label: 'Code'
+    url: 'https://github.com/zengminxu/GSAC-Code'
 thumbnail: '/thumbnails/2024-adaptive-correlation-learning.png'
 ---
 

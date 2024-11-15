@@ -7,6 +7,36 @@ seo:
 
 export const people = [
   {
+    name: '董薇',
+    role: '2024级硕士',
+    desc: '研究方向：行为数据关联分析',
+    avatar: 'dw.jpg'
+  },
+  {
+    name: '肖宗崇',
+    role: '2024级硕士',
+    desc: '研究方向：高阶张量边缘智能',
+    avatar: 'xzc.jpg'
+  },
+  {
+    name: '傅楚阳',
+    role: '2024级硕士',
+    desc: '研究方向：高阶张量边缘智能',
+    avatar: 'fcy.jpg'
+  },
+  {
+    name: '邝梓浩',
+    role: '2024级硕士',
+    desc: '研究方向：大模型与多智能体',
+    avatar: 'kzh.jpg'
+  },
+  {
+    name: '黄鑫',
+    role: '2024级硕士',
+    desc: '研究方向：深度特征统计学习',
+    avatar: 'hx.jpg'
+  },
+  {
     name: '卢克珊',
     role: '2023级硕士',
     desc: '研究方向：骨骼动作识别',
@@ -127,7 +157,7 @@ import { Image } from 'astro:assets';
 <section class="grid gap-8 grid-cols-2 sm:grid-cols-3">
   {people.map((person) => (
     <div>
-      <Image class="w-full max-w-32 aspect-square rounded-lg object-cover" width={256} height={256} src={`/avatars/${person.avatar}`} alt={person.name} />
+      <Image class="w-full max-w-32 aspect-[256/320] rounded-lg object-cover" width={256} height={384} src={`/avatars/${person.avatar}`} alt={person.name} />
       <div>
         <div class="font-serif text-lg sm:text-xl font-semibold tracking-tight text-main mb-1">{person.name}</div>
         <div class="text-main opacity-50 text-sm">{person.role}</div>

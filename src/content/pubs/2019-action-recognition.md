@@ -2,11 +2,11 @@
 title: Action recognition using visual attention with reinforcement learning
 author: Hongyang Li, Jun Chen, Ruimin Hu, Mei Yu, Huafeng Chen, Zengmin Xu
 publishDate: 2019-01-08
-publishDesc: 'MultiMedia Modeling: 25th International Conference, MMM 2019'
+publishDesc: '25th International Conference on MultiMedia Modeling (MMM)'
 description: ''
 doi: 10.1007/978-3-030-05716-9_30
 cite: 'Li H, Chen J, Hu R, et al. Action recognition using visual attention with reinforcement learning[C]//MultiMedia Modeling: 25th International Conference, MMM 2019, Thessaloniki, Greece, January 8–11, 2019, Proceedings, Part II 25. Springer International Publishing, 2019: 365-376.'
-additionalInfo: (EI) CCF C会
+additionalInfo: EI, CCF C会
 links:
   - label: 'PDF'
     url: '/pdfs/[2019] Action recognition using visual attention with reinforcement learning.pdf'

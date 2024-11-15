@@ -6,7 +6,7 @@ publishDesc: 'Neurocomputing'
 description: ''
 doi: 10.1016/j.neucom.2016.09.106
 cite: 'Xu Z, Hu R, Chen J, et al. Action recognition by saliency-based dense sampling[J]. Neurocomputing, 2017, 236: 82-92.'
-additionalInfo: SCI 二区, IF=4.438, CCF C刊
+additionalInfo: SCI, 中科院2区Top, JCR Q1, IF=5.5, CCF C刊
 thumbnail: '/thumbnails/2017-action-recognition.png'
 links:
   - label: 'PDF'
