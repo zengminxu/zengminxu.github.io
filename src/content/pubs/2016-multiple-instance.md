@@ -6,7 +6,7 @@ publishDesc: '2016 IEEE International Conference on Acoustics, Speech and Signal
 description: ''
 doi: 10.1109/ICASSP.2016.7472030
 cite: 'Li H, Chen J, Xu Z, et al. Multiple instance discriminative dictionary learning for action recognition[C]//2016 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2016: 2014-2018.'
-additionalInfo: EI, CCF B会
+additionalInfo: EI, CCF B
 links:
   - label: 'PDF'
     url: '/pdfs/[2016] Multiple instance discriminative dictionary learning for action recognition.pdf'

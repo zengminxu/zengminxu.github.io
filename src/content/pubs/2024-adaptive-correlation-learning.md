@@ -5,7 +5,7 @@ publishDate: 2024-11-11
 description: ''
 publishDesc: 'International Journal of Machine Learning and Cybernetics'
 cite: 'No Cite.'
-additionalInfo: Accepted, SCI 三区, CAAI C刊
+additionalInfo: SCI, CAAI C
 links:
   - label: 'PDF'
     url: '/pdfs/[2024] Semisupervised Action Recognition with Adaptive Correlation Learning.pdf'

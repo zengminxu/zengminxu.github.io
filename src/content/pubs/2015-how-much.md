@@ -6,7 +6,7 @@ publishDesc: '2015 IEEE International Conference on Image Processing (ICIP)'
 description: ''
 doi: 10.1109/ICIP.2015.7351103
 cite: 'Xu Z, Hu R, Chen J, et al. How much bandwidth does surveillance system require?[C]//2015 IEEE International Conference on Image Processing (ICIP). IEEE, 2015: 1762-1766.'
-additionalInfo: EI, CCF C会
+additionalInfo: EI, CCF C
 links:
   - label: 'PDF'
     url: '/pdfs/[2015] How much bandwidth does surveillance system require.pdf'
