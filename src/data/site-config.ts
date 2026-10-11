@@ -69,11 +69,11 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'About me and the research group',
-        text: '**Research interests:** Scientific exploration and application demonstrations in the fields of artificial intelligence and big data, including human behavior analysis, computer vision, natural language processing, operational statistics for industrial maintenance, deep learning, and machine learning.',
+        text: '**Research interests:** Scientific exploration and application demonstrations in the fields of artificial intelligence and big data, including embodied intelligence, large language models and multi-agent systems, multimodal learning, affective computing, computer vision, applied statistics, machine learning, and pattern recognition.',
         actions: [
             {
                 text: 'Get in touch',
-                href: '/contact'
+                href: 'https://www.guet.edu.cn/dept7/1123/list.htm'
             },
             {
                 text: 'More about me',

@@ -20,6 +20,7 @@ const pubs = defineCollection({
         description: z.string().optional(),
         publishDate: z.date(),
         publishDesc: z.string(),
+        priority: z.number().int().positive().optional(),
         doi: z.string().optional(),
         cite: z.string(),
         additionalInfo: z.string().optional(),

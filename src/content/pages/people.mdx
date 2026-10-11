@@ -5,7 +5,49 @@ seo:
   description: People in the research group.
 ---
 
-export const people = [
+export const students = [
+  {
+    name: '黎佩仪',
+    role: '2026级硕士生',
+    desc: '研究方向：大模型与多智能体',
+    avatar: 'lpy.jpg'
+  },
+  {
+    name: '周宇翔',
+    role: '2026级硕士生',
+    desc: '研究方向：大模型记忆系统',
+    avatar: 'zyx.png'
+  },
+  {
+    name: '张博航',
+    role: '2026级硕士生',
+    desc: '研究方向：多模态特征对齐',
+    avatar: 'zbh.jpg'
+  },
+  {
+    name: '钟晓文',
+    role: '2026级硕士生',
+    desc: '研究方向：不确定性量化',
+    avatar: 'zxw.png'
+  },
+  {
+    name: '郑之凯',
+    role: '2026级硕士生',
+    desc: '研究方向：多智能体决策',
+    avatar: 'zzk.jpg'
+  },
+  {
+    name: '叶子炫',
+    role: '2026级硕士生',
+    desc: '研究方向：多模态情感计算',
+    avatar: 'yzx.jpg'
+  },
+  {
+    name: '张杰',
+    role: '2026级硕士生',
+    desc: '研究方向：大小模型融合',
+    avatar: 'zj.jpg'
+  },
   {
     name: '董俊豪',
     role: '2025级硕士生',
@@ -69,7 +111,7 @@ export const people = [
   {
     name: '卢克珊',
     role: '2023级硕士生',
-    desc: '研究方向：骨骼动作识别',
+    desc: '广西信路威科技公司，算法工程师，主研交通安全识别相关算法，如安全带佩戴识别、收费站人脸识别等，主要涉及目标检测、分割等算法优化技术。',
     avatar: 'lks.png'
   },
   {
@@ -81,19 +123,19 @@ export const people = [
   {
     name: '鲍一杭',
     role: '2023级硕士生',
-    desc: '研究方向：多模态',
+    desc: '小米科技有限公司，算法研究部算法工程师，主要负责自研玄戒芯片端侧自动对焦算法以及端侧AI帮拍算法研发。小米18 Fold及18系列全系搭载自研的AI智能构图算法。',
     avatar: 'byh.jpg'
   },
   {
     name: '黄璞嘉',
     role: '2023级硕士生',
-    desc: '研究方向：自然语言处理',
+    desc: '怀化市中方县发展和改革局，主要负责经济分析与党建工作。',
     avatar: 'hpj.png'
   },
   {
     name: '万林凯',
     role: '2023级硕士生',
-    desc: '研究方向：自然语言处理',
+    desc: '招商银行股份有限公司杭州分行运营支持岗。',
     avatar: 'wlk.jpg'
   },
   {
@@ -182,12 +224,56 @@ export const people = [
   }
 ];
 
+export const teachers = [
+  {
+    name: '徐增敏',
+    role: 'Ph.D., Associate Professor',
+    desc: 'Ph.D. in Computer Application Technology from Wuhan University. Research interests include large language models and multi-agent systems, embodied intelligence, multimodal learning and decision-making, and image-text understanding.',
+    avatar: 'xzm.jpg'
+  },
+  {
+    name: '李姣芬',
+    role: 'Ph.D., Professor',
+    desc: 'Ph.D. in Applied Mathematics from Hunan University and Assistant to the Dean. Research interests include numerical algebra, matrix optimization, and Riemannian manifold optimization.',
+    avatar: 'ljf.jpg'
+  },
+  {
+    name: '覃永辉',
+    role: 'Ph.D., Professor',
+    desc: 'Ph.D. in Computational Mathematics from Shanghai University. Research interests include numerical solutions of partial differential equations, spectral method learning, and computer vision.',
+    avatar: 'qyh.jpg'
+  },
+  {
+    name: '王会勇',
+    role: 'Ph.D., Associate Professor',
+    desc: 'Ph.D. in Computer Application Technology from the Institute of Computing Technology, University of Chinese Academy of Sciences. Research interests include homomorphic encryption, privacy-preserving computing, and biometric recognition.',
+    avatar: 'why.jpg'
+  },
+  {
+    name: '莫永向',
+    role: 'Ph.D., Associate Professor',
+    desc: 'Ph.D. in Applied Statistics from Xiangtan University. Research interests include quasi-stationary distributions of Markov processes and limit theories of stochastic processes.',
+    avatar: 'myx.jpg'
+  }
+];
+
 import { Image } from 'astro:assets';
+
+export const renderPeople = (people) => (
 
 <section class="grid gap-8 grid-cols-2 sm:grid-cols-3">
   {people.map((person) => (
     <div>
-      <Image class="w-full max-w-32 aspect-[256/320] rounded-lg object-cover" width={256} height={384} src={`/avatars/${person.avatar}`} alt={person.name} />
+      {person.avatar ? (
+        <Image class="w-full max-w-32 aspect-[256/320] rounded-lg object-cover" width={256} height={384} src={`/avatars/${person.avatar}`} alt={person.name} />
+      ) : (
+        <div
+          class="flex w-full max-w-32 aspect-[256/320] items-center justify-center rounded-lg bg-main text-4xl font-serif text-main/40"
+          aria-label={person.name}
+        >
+          {person.name.slice(0, 1)}
+        </div>
+      )}
       <div>
         <div class="font-serif text-lg sm:text-xl font-semibold tracking-tight text-main mb-1">{person.name}</div>
         <div class="text-main opacity-50 text-sm">{person.role}</div>
@@ -196,3 +282,10 @@ import { Image } from 'astro:assets';
     </div>
   ))}
 </section>
+);
+
+{renderPeople(students)}
+
+<hr class="my-16 border-main/20 sm:my-24" />
+
+{renderPeople(teachers)}

@@ -5,7 +5,7 @@ seo:
   description: Research projects done by me and the research group.
 ---
 
-The team has been engaged in scientific research in the fields of machine learning and computer vision since 2012, and has carried out research and application in artificial intelligence and big data analysis directions such as human behavior analysis, image and text content understanding, natural language processing, working condition operation and maintenance statistics, and multi-modal data fusion.
+The team has been engaged in scientific research since 2012 in the fields of artificial intelligence and big data, including embodied intelligence, large language models and multi-agent systems, multimodal learning, affective computing, computer vision, applied statistics, machine learning, and pattern recognition.
 
 ### Projects
 

@@ -3,6 +3,7 @@ title: 'LearnIR: Learnable Posterior Sampling for Real-World Image Restoration'
 author: Yihang Bao, Zhen Huang, Shanyan Guan, Songlin Yang, Yanhao Ge, Wei Li, Bukun Huang, Zengmin Xu
 publishDate: 2026-02-26
 publishDesc: 'International Conference on Learning Representations'
+priority: 2
 description: ''
 cite: ''
 doi: ''
