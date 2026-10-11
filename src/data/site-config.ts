@@ -73,7 +73,7 @@ const siteConfig: SiteConfig = {
         actions: [
             {
                 text: 'Get in touch',
-                href: 'https://www.guet.edu.cn/dept7/1123/list.htm'
+                href: '/contact'
             },
             {
                 text: 'More about me',

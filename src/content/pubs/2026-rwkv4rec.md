@@ -12,6 +12,8 @@ thumbnail: '/thumbnails/2026-rwkv4rec.png'
 links:
   - label: 'PDF'
     url: '/pdfs/[2026] RWKV4Rec RWKV-Based Personalized Sequential Recommendation Model.pdf'
+  - label: 'Code'
+    url: 'https://github.com/YuanMW/RWKV4Rec'
 ---
 
 ## Abstract

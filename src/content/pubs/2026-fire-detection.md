@@ -12,6 +12,8 @@ thumbnail: '/thumbnails/2026-fire-detection.png'
 links:
   - label: 'PDF'
     url: '/pdfs/[2026] Enhanced fire detection in new dataset: a fine-grained and multiscale-optimized architecture.pdf'
+  - label: 'Code'
+    url: 'https://github.com/Administor123/EFDC-YOLO'
 ---
 
 ## Abstract
